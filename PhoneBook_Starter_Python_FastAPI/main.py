@@ -77,48 +77,34 @@ phone_regex = re.compile(r"""
 
 name_regex = re.compile(r"""
     ^                                  
-    [a-zA-Z](['’])?[a-zA-Z]+ 
+    [a-zA-Z]
+    (['’])?
+    [a-zA-Z]+    
                         
-    (\s[A-Z](['’])?[a-zA-Z]+
-        (\s([-])?[A-Z][a-zA-Z]+)?)?
-                        
-    (,\s[A-Z](['’])?[a-zA-Z]+
-        (-[A-Z][a-zA-Z]+)?)?  
+    (
+    ,?
+    \s
+    [A-Z]
+    (['’\.])?
+    [a-zA-Z]+
+        (([\s -])?
+        [A-Z]
+        [a-zA-Z]+)?)? 
                  
-    (\s[A-Z]\.)?             
-              
-    (\s[A-Z](['’])?[a-zA-Z]+
-        (-[A-Z][a-zA-Z]+)?)?  # Schneier, Bruce Wayne fail without
+    (,?
+    \s
+    [A-Z]
+    \. 
+        (\s[A-Z](['’])?[a-zA-Z]+
+            (-[A-Z][a-zA-Z]+)?)?)?           
     $                                  
 """, re.VERBOSE | re.UNICODE)
 
 
 
-phone_regex2 = re.compile(r'''
-    ^                  # Start of string
-    (\+?\d{1,3})?      # Optional country code with + (e.g., +1, +44, +91)
-    [\s.-]?            # Optional separator (space, dot, or dash)
-    \(?\d{1,4}\)?      # Area code (1 to 4 digits, optional parentheses)
-    [\s.-]?            # Optional separator
-    \d{1,4}            # First part of number (1 to 4 digits)
-    [\s.-]?            # Optional separator
-    \d{1,4}            # Second part of number (any number 1 - 4 times)
-    [\s.-]?            # Optional separator
-    \d{1,9}            # Remaining digits (any number 1 - 9 times)
-    $                  # End of string
-''', re.VERBOSE)
-
-name_regex2 = re.compile(r"""
-    ^                              
-    [a-zA-Z]+(['’.-]?[a-zA-Z]+)?     
-    (\s[a-zA-Z][a-zA-Z]*(['’.-]?[a-zA-Z]+)?)? 
-    (\s[-]?[A-Z][a-zA-Z]+)?        
-    (,\s[a-zA-Z][a-zA-Z]*(['’.-]?[a-zA-Z]+)?)?  
-    (\s[a-zA-Z]\.)?                   
-    (\s[a-zA-Z][a-zA-Z]*(['’.-]?[a-zA-Z]+)?)?  
-    $                              
-""", re.VERBOSE | re.UNICODE)
-
+#
+    
+    
 
 #########################################
 #########################################

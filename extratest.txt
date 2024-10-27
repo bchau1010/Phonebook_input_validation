@@ -84,7 +84,8 @@ invalid_phones += [
     "123-123-12345",                  # Too many digits
     "+1 (123) 555-555555",            # Too many digits in subscriber number
     "(123) 555 12a4",                 # Contains letter in subscriber number
-    "+1-555-5555-1234"                # Invalid separator placement
+    "+1-555-5555-1234",                # Invalid separator placement
+    " ",
 ]
 
 valid_names += [
@@ -135,6 +136,7 @@ valid_names += [
 ]
 
 invalid_names += [
+    " ",
     "12345",                            # Numbers in name
     "John123",                          # Numbers in first name
     "O’123Malley",                      # Numbers in last name
