@@ -1,0 +1,63 @@
+Regular expressions for <Person> and <Telephone #>
+
+REQUIREMENT FOR INPUT #
+    The following are some rules to follow for phone numbers:
+    • The country code may or may not be preceded by a + which indicates that an international
+    dialing prefix, such as 00 or 011, must be included when dialing. If not using the plus, the
+    dialing prefix itself may be included.
+    • Some organizations use 5-digit extensions only for dialing from one internal phone to
+    another.
+    • North American phone numbers dialed within the countries of North America use a
+    country code of 1, have a 3-digit area code, and a 7-digit subscriber number. Calls to local
+    numbers in the same area code may omit the area code if not in a metro area; therefore, a
+    subscriber only format may be used. Acceptable entry for North American phone numbers
+    are as follows:
+        o <Subscriber Number> (e.g. 123-4567)
+        o (<Area Code>)<Subscriber Number> (e.g. (670)123-4567)
+        o <Area Code>-<Subscriber Number> (e.g. 670-123-4567)
+        o 1-<Area Code>-<Subscriber Number> (e.g. 1-670-123-4567)
+        o 1(<Area Code>)<Subscriber Number> (e.g. 1(670)123-4567)
+        o <Area Code> <Subscriber Number> (e.g. 670 123 4567)
+        o <Area Code>.<Subscriber Number> (e.g. 670.123.4567)
+        o 1 <Area Code> <Subscriber Number> (e.g. 1 670 123 4567)
+        o 1.<Area Code>.<Subscriber Number> (e.g. 1.670.123.4567)
+    • Danish telephone numbers are 8 digits long, and normally written in four groups of two
+    separated by spaces, AA AA AA AA. In recent years it has also become common to write
+    them in two groups of four, AAAA AAAA. Also, allow dots instead of spaces. Denmark's
+    country code is 45 and may be included as well for international formats.
+    • Some notations use 2-digit area codes.
+    • Some notations with 10 digits in two groups of five separated by either a space or a dot.
+
+ENDPOINTS
+    GET /PhoneBook/list – Produce a list of the members of the database. 
+    POST /PhoneBook/add – Add a new person to the database. 
+        Argument is an object with name and phone number string elements (represented in JSON). 
+    PUT /PhoneBook/deleteByName – Remove someone from the database by name. 
+        Argument is the name as a string. 
+    PUT /PhoneBook/deleteByNumber – Remove someone by telephone #. 
+        Argument is the phone number as a string.
+    Referred to PhoneBook.json for requirement for interface
+
+STATUS CODE
+    When valid input is provided: status code of 200
+    when invalid input is provided: status code of 400 
+    When an appropriate error message included in the response: status code of 404.
+
+Create auditlog
+    When user add name: include name of person and phone number  
+    When user remove name: include name of person and phone number
+    When user fetch the list
+
+Authentication: Read and Read/Write
+    Read: can only call list
+    Read/Write: can do all function
+
+Testing using python: test at least all cases provided
+
+Docker images to build project
+
+Report
+    How to run
+    How code work
+    Assumeptions made
+    Pros/Cons
