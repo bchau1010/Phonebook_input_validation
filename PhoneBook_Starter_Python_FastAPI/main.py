@@ -11,6 +11,7 @@ from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 
 '''
 GO TO THIS ADDRESS FOR UI: http://127.0.0.1:8000/docs
+run: `uvicorn main:app --reload`
 '''
 
 
@@ -59,7 +60,7 @@ phone_regex = re.compile(r"""
     ^                                          # Start of string
     ((\d{5}|                                   # 12345 
         
-    \d{5}[.\s]\d{5})|                      # 12345.12345
+    \d{5}[-.\s]\d{5})|                      # 12345.12345
         
     (\d{3}[-.\s]\d{4})|                    # 123-4567
         
@@ -69,9 +70,9 @@ phone_regex = re.compile(r"""
         
     ((\+?\d{1,3})\s\d{1,3}\s\d{3}\s\d{3}\s\d{4}$)|      # +1 234 567 8901
     
-    (\d{4}[.\s]\d{4})|                                  # 1234 5678   
+    (\d{4}[-.\s]\d{4})|                                  # 1234 5678   
                  
-    (\d{2}[.\s]\d{2}[.\s]\d{2}[.\s]\d{2})|              # 22 22 22 22
+    (\d{2}[-.\s]\d{2}[-.\s]\d{2}[-.\s]\d{2})|              # 22 22 22 22
     
     ((\+?\d{1,3})\s\d{3}\s\d{3}\s\d{4})                 # +1 123 456 7890
     )$""", re.VERBOSE)
@@ -259,8 +260,8 @@ def login(form_data: OAuth2PasswordRequestForm = Depends()):
 
 # List phonebook entries (read role)
 @app.get("/PhoneBook/list", status_code=status.HTTP_200_OK)
-def list_phonebook():
-    #current_user: str = Depends(authorize_read)
+def list_phonebook(current_user: str = Depends(authorize_read)):
+    #
     try:
         session = Session()
         phonebook = session.query(PhoneBook).all()
@@ -272,8 +273,8 @@ def list_phonebook():
 
 # Add person to phonebook (write role)
 @app.post("/PhoneBook/add", status_code=status.HTTP_200_OK)
-def add_person(full_name: str, phone_number: str):
-    #, current_user: str = Depends(authorize_write)
+def add_person(full_name: str, phone_number: str, current_user: str = Depends(authorize_write)):
+    #
     try:
         session = Session()
         # return the bool value of validation, should be true to continue
@@ -298,8 +299,8 @@ def add_person(full_name: str, phone_number: str):
 
 # Delete person by name (write role)
 @app.put("/PhoneBook/deleteByName", status_code=status.HTTP_200_OK)
-def delete_by_name(full_name: str):
-    #, current_user: str = Depends(authorize_write)
+def delete_by_name(full_name: str, current_user: str = Depends(authorize_write)):
+    #
     try:
         session = Session()
         # get the first match of the person, if there are more than 1 name
@@ -318,8 +319,7 @@ def delete_by_name(full_name: str):
 
 # Delete person by phone number (write role)
 @app.put("/PhoneBook/deleteByNumber", status_code=status.HTTP_200_OK)
-def delete_by_number(phone_number: str):
-    #, current_user: str = Depends(authorize_write)
+def delete_by_number(phone_number: str, current_user: str = Depends(authorize_write)):
     try:
         session = Session()
         person = session.query(PhoneBook).filter_by(phone_number=phone_number).first()
