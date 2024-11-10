@@ -9,6 +9,8 @@ from jose import JWTError, jwt
 from passlib.context import CryptContext
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 
+from loginInfo import fake_users_db
+
 '''
 GO TO THIS ADDRESS FOR UI: http://127.0.0.1:8000/docs
 run: `uvicorn main:app --reload`
@@ -35,21 +37,6 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token") # OAuth2 scheme
 
 app = FastAPI() # Initialize FastAPI app
 
-# Mock user database
-fake_users_db = {
-    "readonlyuser": {
-        "username": "readonlyuser",
-        "hashed_password": pwd_context.hash("readonlypassword"),
-        "role": "read",
-        "token": ""
-    },
-    "adminuser": {
-        "username": "adminuser",
-        "hashed_password": pwd_context.hash("adminpassword"),
-        "role": "read/write",
-        "token": ""
-    }
-}
 
 
 # phone number with 7 number can be clean , no need for regex
@@ -68,13 +55,13 @@ phone_regex = re.compile(r"""
         (\s?\(?[1-9]\d{1,2}\)?[-.\s]?)     
             (\d{3}[-.\s]\d{4})|                 
         
-    ((\+?\d{1,3})\s\d{1,3}\s\d{3}\s\d{3}\s\d{4}$)|      # +1 234 567 8901
+    ((\+?\d{1,3})[-.\s]\d{1,3}[-.\s]\d{3}[-.\s]\d{3}[-.\s]\d{4}$)|      # +1 234 567 8901
     
     (\d{4}[-.\s]\d{4})|                                  # 1234 5678   
                  
     (\d{2}[-.\s]\d{2}[-.\s]\d{2}[-.\s]\d{2})|              # 22 22 22 22
     
-    ((\+?\d{1,3})\s\d{3}\s\d{3}\s\d{4})                 # +1 123 456 7890
+    ((\+?\d{1,3})[-.\s]\d{3}[-.\s]\d{3}[-.\s]\d{4})                 # +1 123 456 7890
     )$""", re.VERBOSE)
 
 
@@ -90,9 +77,6 @@ name_regex = re.compile(r"""
 
 
 
-#
-    
-    
 
 #########################################
 #########################################

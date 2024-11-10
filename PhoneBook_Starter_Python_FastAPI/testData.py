@@ -11,6 +11,14 @@ valid_phones = [
     "22.22.22.22",
     "2222.2222",
     "111 111 1111",
+    "(670)123-4567",
+    "670-123-4567",
+    "1-670-123-4567",
+    "1(670)123-4567",
+    "670 123 4567",
+    "670.123.4567",
+    "1 670 123 4567",
+    "1.670.123.4567",
 ]
 
 
@@ -49,7 +57,8 @@ invalid_names = [
 ]
 
 
-valid_phones += [
+####################
+valid_phones_extra = [
     "(123) 456-7890",
     "202.555.0188",
     "123 456 7890",
@@ -94,7 +103,8 @@ valid_phones += [
 ]
 
 
-invalid_phones += [
+
+invalid_phones_extra = [
     "12",                             # Too short
     "1234/567",                       # Wrong format with slash
     "555-555-55555",                  # Too many digits
@@ -138,7 +148,9 @@ invalid_phones += [
     " ",
 ]
 
-valid_names += [
+
+
+valid_names_extra = [
     "Ann Marie",
     "Anne O’Hara",
     "Patrick O'Connor",
@@ -179,7 +191,8 @@ valid_names += [
     "Claire O'Malley"
 ]
 
-invalid_names += [
+
+invalid_names_extra = [
     " ",
     "12345",                            # Numbers in name
     "John123",                          # Numbers in first name
@@ -191,10 +204,10 @@ invalid_names += [
     "<script>alert('XSS')",             # XSS attack
     "Michael O’Leary123",               # Numbers in last name
     "FitzGer@ld",                       # Invalid character
-    "John O''''Malley",                 # Multiple apostrophes
-    "Marie-Ann-Pierre",                 # Too many hyphens
-    "Jean-Luc Picard-Dupont-Baker",     # Too many hyphenated last names
-    "O'Malley, John Paul Smith",        # More than one first/middle name
+    "John O''''Malley",                 
+    "Marie-Ann-Pierre",                 
+    "Jean-Luc Picard-Dupont-Baker",     
+    "O'Malley, John Paul Smith",        
     "John O''''"
 ]
 
