@@ -44,3 +44,21 @@
 2024-11-10T16:58:03.268959 - LIST: Listed phonebook entries
 2024-11-10T16:59:38.845429 - LIST: Listed phonebook entries
 2024-11-10T16:59:39.057376 - LIST: Listed phonebook entries
+2024-11-10T17:03:08.110955 - LIST: Listed phonebook entries
+2024-11-10T17:03:08.356395 - LIST: Listed phonebook entries
+2024-11-10T17:09:53.643358 - LIST: Listed phonebook entries
+2024-11-10T17:09:53.876927 - LIST: Listed phonebook entries
+2024-11-10T17:16:15.100709 - LIST: Listed phonebook entries
+2024-11-10T17:16:15.319885 - LIST: Listed phonebook entries
+2024-11-10T17:16:54.519641 - LIST: Listed phonebook entries
+2024-11-10T17:16:54.767357 - LIST: Listed phonebook entries
+2024-11-10T17:25:44.945306 - LIST: Listed phonebook entries
+2024-11-10T17:25:45.174829 - LIST: Listed phonebook entries
+2024-11-10T17:57:50.715366 - LIST: Listed phonebook entries
+2024-11-10T17:57:50.966585 - LIST: Listed phonebook entries
+2024-11-10T18:04:45.559810 - LIST: Listed phonebook entries
+2024-11-10T18:04:45.815931 - LIST: Listed phonebook entries
+2024-11-10T18:04:46.296001 - ADD: Added: John Doe, 123-4567
+2024-11-10T18:04:46.835428 - DELETE: Deleted by name: John Doe,
+2024-11-10T18:04:47.336242 - ADD: Added: John Doe, 123-4567
+2024-11-10T18:04:47.349410 - DELETE: Deleted by phone number and person: 123-4567,<main.PhoneBook object at 0x000001D536CCC710>
