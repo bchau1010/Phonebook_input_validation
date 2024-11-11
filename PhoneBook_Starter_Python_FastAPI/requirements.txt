@@ -5,3 +5,4 @@ pytest
 SQLAlchemy
 jose
 passlib
+python-multipart

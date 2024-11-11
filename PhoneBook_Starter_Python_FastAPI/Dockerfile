@@ -25,6 +25,8 @@ USER appuser
 # Expose port 8000 for FastAPI
 EXPOSE 8000
 
+
+
 # Run the FastAPI application with Uvicorn
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 
