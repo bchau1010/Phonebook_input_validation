@@ -36,7 +36,6 @@ def test_invalid_names(name):
     assert not name_regex.match(name), f"Expected {name} to be invalid"
 
 
-#########################################
 @pytest.mark.parametrize("Iname", invalid_names)
 @pytest.mark.parametrize("name", valid_names)
 def test_validate_names(Iname, name):
@@ -80,7 +79,6 @@ async def test_list_phonebook(username, password, expected_status):
 
 #############################################################
 # 422 = server cannot process because request contain invalid data
-
 # Test adding person with either admin or read only user
 @pytest.mark.asyncio
 @pytest.mark.parametrize("username, password, expected_status", [
@@ -146,5 +144,6 @@ async def test_delete_person_by_phone_number(username, password, expected_status
     assert response.status_code == expected_status
     if expected_status == 200:
         assert response.json() == {"message": "Person deleted successfully"}
+
 
 

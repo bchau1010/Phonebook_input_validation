@@ -103,7 +103,6 @@ valid_phones_extra = [
 ]
 
 
-
 invalid_phones_extra = [
     "12",                             # Too short
     "1234/567",                       # Wrong format with slash
@@ -147,7 +146,6 @@ invalid_phones_extra = [
     "+1-555-5555-1234",                # Invalid separator placement
     " ",
 ]
-
 
 
 valid_names_extra = [

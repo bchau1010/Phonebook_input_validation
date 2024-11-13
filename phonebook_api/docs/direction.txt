@@ -1,0 +1,35 @@
+Regular expressions for <Person> and <Telephone #>
+
+ENDPOINTS
+    GET /PhoneBook/list – Produce a list of the members of the database. 
+    POST /PhoneBook/add – Add a new person to the database. 
+        Argument is an object with name and phone number string elements (represented in JSON). 
+    PUT /PhoneBook/deleteByName – Remove someone from the database by name. 
+        Argument is the name as a string. 
+    PUT /PhoneBook/deleteByNumber – Remove someone by telephone #. 
+        Argument is the phone number as a string.
+    Referred to PhoneBook.json for requirement for interface
+
+STATUS CODE
+    valid input: status code of 200
+    invalid input: status code of 400 with message
+    non-existent: status code of 404.
+
+Create auditlog
+    When user add name: include name of person and phone number  
+    When user remove name: include name of person and phone number
+    When user lists the names
+
+Authentication: Read and Read/Write
+    Read: can only call list
+    Read/Write: can do all function
+
+Unit Testing using python
+
+Docker images to build project
+
+Report
+    How to run
+    How code work
+    Assumeptions made
+    Pros/Cons

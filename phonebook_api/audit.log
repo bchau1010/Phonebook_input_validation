@@ -1,0 +1,763 @@
+2024-11-13T13:08:19.882015 - ADD: Added: Bruce Schneier, 12345
+2024-11-13T13:08:19.897549 - DELETE: Deleted by phone number and person: 12345,Bruce Schneier
+2024-11-13T13:08:20.213500 - ADD: Added: Bruce Schneier, (703)111-2121
+2024-11-13T13:08:20.230026 - DELETE: Deleted by phone number and person: (703)111-2121,Bruce Schneier
+2024-11-13T13:08:20.538422 - ADD: Added: Bruce Schneier, 123-1234
+2024-11-13T13:08:20.545914 - DELETE: Deleted by phone number and person: 123-1234,Bruce Schneier
+2024-11-13T13:08:21.641168 - ADD: Added: Bruce Schneier, 1(703)123-1234
+2024-11-13T13:08:21.648352 - DELETE: Deleted by phone number and person: 1(703)123-1234,Bruce Schneier
+2024-11-13T13:08:22.018534 - ADD: Added: Bruce Schneier, 011 701 111 1234
+2024-11-13T13:08:22.036204 - DELETE: Deleted by phone number and person: 011 701 111 1234,Bruce Schneier
+2024-11-13T13:08:22.375891 - ADD: Added: Bruce Schneier, 12345.12345
+2024-11-13T13:08:22.391789 - DELETE: Deleted by phone number and person: 12345.12345,Bruce Schneier
+2024-11-13T13:08:22.700438 - ADD: Added: Bruce Schneier, 011 1 703 111 1234
+2024-11-13T13:08:22.716984 - DELETE: Deleted by phone number and person: 011 1 703 111 1234,Bruce Schneier
+2024-11-13T13:08:23.024848 - ADD: Added: Bruce Schneier, 22.22.22.22
+2024-11-13T13:08:23.040542 - DELETE: Deleted by phone number and person: 22.22.22.22,Bruce Schneier
+2024-11-13T13:08:23.363065 - ADD: Added: Bruce Schneier, 2222.2222
+2024-11-13T13:08:23.379029 - DELETE: Deleted by phone number and person: 2222.2222,Bruce Schneier
+2024-11-13T13:08:23.690076 - ADD: Added: Bruce Schneier, 111 111 1111
+2024-11-13T13:08:23.706111 - DELETE: Deleted by phone number and person: 111 111 1111,Bruce Schneier
+2024-11-13T13:08:24.022821 - ADD: Added: Bruce Schneier, (670)123-4567
+2024-11-13T13:08:24.038601 - DELETE: Deleted by phone number and person: (670)123-4567,Bruce Schneier
+2024-11-13T13:08:24.362015 - ADD: Added: Bruce Schneier, 670-123-4567
+2024-11-13T13:08:24.362015 - DELETE: Deleted by phone number and person: 670-123-4567,Bruce Schneier
+2024-11-13T13:08:24.698718 - ADD: Added: Bruce Schneier, 1-670-123-4567
+2024-11-13T13:08:24.726565 - DELETE: Deleted by phone number and person: 1-670-123-4567,Bruce Schneier
+2024-11-13T13:08:25.074938 - ADD: Added: Bruce Schneier, 1(670)123-4567
+2024-11-13T13:08:25.090660 - DELETE: Deleted by phone number and person: 1(670)123-4567,Bruce Schneier
+2024-11-13T13:08:25.401653 - ADD: Added: Bruce Schneier, 670 123 4567
+2024-11-13T13:08:25.417647 - DELETE: Deleted by phone number and person: 670 123 4567,Bruce Schneier
+2024-11-13T13:08:25.731752 - ADD: Added: Bruce Schneier, 670.123.4567
+2024-11-13T13:08:25.747817 - DELETE: Deleted by phone number and person: 670.123.4567,Bruce Schneier
+2024-11-13T13:08:26.056938 - ADD: Added: Bruce Schneier, 1 670 123 4567
+2024-11-13T13:08:26.066446 - DELETE: Deleted by phone number and person: 1 670 123 4567,Bruce Schneier
+2024-11-13T13:08:26.381512 - ADD: Added: Bruce Schneier, 1.670.123.4567
+2024-11-13T13:08:26.389971 - DELETE: Deleted by phone number and person: 1.670.123.4567,Bruce Schneier
+2024-11-13T13:08:26.706404 - ADD: Added: Schneier, Bruce, 12345
+2024-11-13T13:08:26.706404 - DELETE: Deleted by phone number and person: 12345,Schneier, Bruce
+2024-11-13T13:08:27.043577 - ADD: Added: Schneier, Bruce, (703)111-2121
+2024-11-13T13:08:27.060737 - DELETE: Deleted by phone number and person: (703)111-2121,Schneier, Bruce
+2024-11-13T13:08:27.375632 - ADD: Added: Schneier, Bruce, 123-1234
+2024-11-13T13:08:27.391745 - DELETE: Deleted by phone number and person: 123-1234,Schneier, Bruce
+2024-11-13T13:08:28.314086 - ADD: Added: Schneier, Bruce, 1(703)123-1234
+2024-11-13T13:08:28.330340 - DELETE: Deleted by phone number and person: 1(703)123-1234,Schneier, Bruce
+2024-11-13T13:08:28.645200 - ADD: Added: Schneier, Bruce, 011 701 111 1234
+2024-11-13T13:08:28.661112 - DELETE: Deleted by phone number and person: 011 701 111 1234,Schneier, Bruce
+2024-11-13T13:08:29.002345 - ADD: Added: Schneier, Bruce, 12345.12345
+2024-11-13T13:08:29.020892 - DELETE: Deleted by phone number and person: 12345.12345,Schneier, Bruce
+2024-11-13T13:08:29.332000 - ADD: Added: Schneier, Bruce, 011 1 703 111 1234
+2024-11-13T13:08:29.347601 - DELETE: Deleted by phone number and person: 011 1 703 111 1234,Schneier, Bruce
+2024-11-13T13:08:29.663625 - ADD: Added: Schneier, Bruce, 22.22.22.22
+2024-11-13T13:08:29.679276 - DELETE: Deleted by phone number and person: 22.22.22.22,Schneier, Bruce
+2024-11-13T13:08:29.994054 - ADD: Added: Schneier, Bruce, 2222.2222
+2024-11-13T13:08:30.009351 - DELETE: Deleted by phone number and person: 2222.2222,Schneier, Bruce
+2024-11-13T13:08:30.320128 - ADD: Added: Schneier, Bruce, 111 111 1111
+2024-11-13T13:08:30.335914 - DELETE: Deleted by phone number and person: 111 111 1111,Schneier, Bruce
+2024-11-13T13:08:30.679358 - ADD: Added: Schneier, Bruce, (670)123-4567
+2024-11-13T13:08:30.694897 - DELETE: Deleted by phone number and person: (670)123-4567,Schneier, Bruce
+2024-11-13T13:08:31.015517 - ADD: Added: Schneier, Bruce, 670-123-4567
+2024-11-13T13:08:31.031397 - DELETE: Deleted by phone number and person: 670-123-4567,Schneier, Bruce
+2024-11-13T13:08:31.362758 - ADD: Added: Schneier, Bruce, 1-670-123-4567
+2024-11-13T13:08:31.378484 - DELETE: Deleted by phone number and person: 1-670-123-4567,Schneier, Bruce
+2024-11-13T13:08:31.706040 - ADD: Added: Schneier, Bruce, 1(670)123-4567
+2024-11-13T13:08:31.710275 - DELETE: Deleted by phone number and person: 1(670)123-4567,Schneier, Bruce
+2024-11-13T13:08:32.027332 - ADD: Added: Schneier, Bruce, 670 123 4567
+2024-11-13T13:08:32.044160 - DELETE: Deleted by phone number and person: 670 123 4567,Schneier, Bruce
+2024-11-13T13:08:32.351644 - ADD: Added: Schneier, Bruce, 670.123.4567
+2024-11-13T13:08:32.375321 - DELETE: Deleted by phone number and person: 670.123.4567,Schneier, Bruce
+2024-11-13T13:08:32.685886 - ADD: Added: Schneier, Bruce, 1 670 123 4567
+2024-11-13T13:08:32.703505 - DELETE: Deleted by phone number and person: 1 670 123 4567,Schneier, Bruce
+2024-11-13T13:08:33.007120 - ADD: Added: Schneier, Bruce, 1.670.123.4567
+2024-11-13T13:08:33.019228 - DELETE: Deleted by phone number and person: 1.670.123.4567,Schneier, Bruce
+2024-11-13T13:08:33.359707 - ADD: Added: Schneier, Bruce Wayne, 12345
+2024-11-13T13:08:33.375345 - DELETE: Deleted by phone number and person: 12345,Schneier, Bruce Wayne
+2024-11-13T13:08:33.708398 - ADD: Added: Schneier, Bruce Wayne, (703)111-2121
+2024-11-13T13:08:33.720235 - DELETE: Deleted by phone number and person: (703)111-2121,Schneier, Bruce Wayne
+2024-11-13T13:08:34.051229 - ADD: Added: Schneier, Bruce Wayne, 123-1234
+2024-11-13T13:08:34.069815 - DELETE: Deleted by phone number and person: 123-1234,Schneier, Bruce Wayne
+2024-11-13T13:08:35.010854 - ADD: Added: Schneier, Bruce Wayne, 1(703)123-1234
+2024-11-13T13:08:35.022205 - DELETE: Deleted by phone number and person: 1(703)123-1234,Schneier, Bruce Wayne
+2024-11-13T13:08:35.336042 - ADD: Added: Schneier, Bruce Wayne, 011 701 111 1234
+2024-11-13T13:08:35.351057 - DELETE: Deleted by phone number and person: 011 701 111 1234,Schneier, Bruce Wayne
+2024-11-13T13:08:35.669986 - ADD: Added: Schneier, Bruce Wayne, 12345.12345
+2024-11-13T13:08:35.673495 - DELETE: Deleted by phone number and person: 12345.12345,Schneier, Bruce Wayne
+2024-11-13T13:08:35.989193 - ADD: Added: Schneier, Bruce Wayne, 011 1 703 111 1234
+2024-11-13T13:08:36.012338 - DELETE: Deleted by phone number and person: 011 1 703 111 1234,Schneier, Bruce Wayne
+2024-11-13T13:08:36.321321 - ADD: Added: Schneier, Bruce Wayne, 22.22.22.22
+2024-11-13T13:08:36.343415 - DELETE: Deleted by phone number and person: 22.22.22.22,Schneier, Bruce Wayne
+2024-11-13T13:08:36.684565 - ADD: Added: Schneier, Bruce Wayne, 2222.2222
+2024-11-13T13:08:36.700369 - DELETE: Deleted by phone number and person: 2222.2222,Schneier, Bruce Wayne
+2024-11-13T13:08:37.014231 - ADD: Added: Schneier, Bruce Wayne, 111 111 1111
+2024-11-13T13:08:37.028833 - DELETE: Deleted by phone number and person: 111 111 1111,Schneier, Bruce Wayne
+2024-11-13T13:08:37.343570 - ADD: Added: Schneier, Bruce Wayne, (670)123-4567
+2024-11-13T13:08:37.343570 - DELETE: Deleted by phone number and person: (670)123-4567,Schneier, Bruce Wayne
+2024-11-13T13:08:37.661978 - ADD: Added: Schneier, Bruce Wayne, 670-123-4567
+2024-11-13T13:08:37.665364 - DELETE: Deleted by phone number and person: 670-123-4567,Schneier, Bruce Wayne
+2024-11-13T13:08:37.997366 - ADD: Added: Schneier, Bruce Wayne, 1-670-123-4567
+2024-11-13T13:08:38.015431 - DELETE: Deleted by phone number and person: 1-670-123-4567,Schneier, Bruce Wayne
+2024-11-13T13:08:38.315948 - ADD: Added: Schneier, Bruce Wayne, 1(670)123-4567
+2024-11-13T13:08:38.331022 - DELETE: Deleted by phone number and person: 1(670)123-4567,Schneier, Bruce Wayne
+2024-11-13T13:08:38.650974 - ADD: Added: Schneier, Bruce Wayne, 670 123 4567
+2024-11-13T13:08:38.672560 - DELETE: Deleted by phone number and person: 670 123 4567,Schneier, Bruce Wayne
+2024-11-13T13:08:39.013125 - ADD: Added: Schneier, Bruce Wayne, 670.123.4567
+2024-11-13T13:08:39.020926 - DELETE: Deleted by phone number and person: 670.123.4567,Schneier, Bruce Wayne
+2024-11-13T13:08:39.330206 - ADD: Added: Schneier, Bruce Wayne, 1 670 123 4567
+2024-11-13T13:08:39.345869 - DELETE: Deleted by phone number and person: 1 670 123 4567,Schneier, Bruce Wayne
+2024-11-13T13:08:39.658889 - ADD: Added: Schneier, Bruce Wayne, 1.670.123.4567
+2024-11-13T13:08:39.674672 - DELETE: Deleted by phone number and person: 1.670.123.4567,Schneier, Bruce Wayne
+2024-11-13T13:08:39.974251 - ADD: Added: O’Malley, John F., 12345
+2024-11-13T13:08:40.005629 - DELETE: Deleted by phone number and person: 12345,O’Malley, John F.
+2024-11-13T13:08:40.320034 - ADD: Added: O’Malley, John F., (703)111-2121
+2024-11-13T13:08:40.336808 - DELETE: Deleted by phone number and person: (703)111-2121,O’Malley, John F.
+2024-11-13T13:08:40.628677 - ADD: Added: O’Malley, John F., 123-1234
+2024-11-13T13:08:40.649538 - DELETE: Deleted by phone number and person: 123-1234,O’Malley, John F.
+2024-11-13T13:08:41.548992 - ADD: Added: O’Malley, John F., 1(703)123-1234
+2024-11-13T13:08:41.565075 - DELETE: Deleted by phone number and person: 1(703)123-1234,O’Malley, John F.
+2024-11-13T13:08:41.872579 - ADD: Added: O’Malley, John F., 011 701 111 1234
+2024-11-13T13:08:41.888147 - DELETE: Deleted by phone number and person: 011 701 111 1234,O’Malley, John F.
+2024-11-13T13:08:42.203265 - ADD: Added: O’Malley, John F., 12345.12345
+2024-11-13T13:08:42.211975 - DELETE: Deleted by phone number and person: 12345.12345,O’Malley, John F.
+2024-11-13T13:08:42.534967 - ADD: Added: O’Malley, John F., 011 1 703 111 1234
+2024-11-13T13:08:42.534967 - DELETE: Deleted by phone number and person: 011 1 703 111 1234,O’Malley, John F.
+2024-11-13T13:08:42.875634 - ADD: Added: O’Malley, John F., 22.22.22.22
+2024-11-13T13:08:42.891554 - DELETE: Deleted by phone number and person: 22.22.22.22,O’Malley, John F.
+2024-11-13T13:08:43.206696 - ADD: Added: O’Malley, John F., 2222.2222
+2024-11-13T13:08:43.223649 - DELETE: Deleted by phone number and person: 2222.2222,O’Malley, John F.
+2024-11-13T13:08:43.550510 - ADD: Added: O’Malley, John F., 111 111 1111
+2024-11-13T13:08:43.566140 - DELETE: Deleted by phone number and person: 111 111 1111,O’Malley, John F.
+2024-11-13T13:08:43.874785 - ADD: Added: O’Malley, John F., (670)123-4567
+2024-11-13T13:08:43.890909 - DELETE: Deleted by phone number and person: (670)123-4567,O’Malley, John F.
+2024-11-13T13:08:44.205744 - ADD: Added: O’Malley, John F., 670-123-4567
+2024-11-13T13:08:44.221402 - DELETE: Deleted by phone number and person: 670-123-4567,O’Malley, John F.
+2024-11-13T13:08:44.547192 - ADD: Added: O’Malley, John F., 1-670-123-4567
+2024-11-13T13:08:44.562832 - DELETE: Deleted by phone number and person: 1-670-123-4567,O’Malley, John F.
+2024-11-13T13:08:44.883465 - ADD: Added: O’Malley, John F., 1(670)123-4567
+2024-11-13T13:08:44.893726 - DELETE: Deleted by phone number and person: 1(670)123-4567,O’Malley, John F.
+2024-11-13T13:08:45.207797 - ADD: Added: O’Malley, John F., 670 123 4567
+2024-11-13T13:08:45.225424 - DELETE: Deleted by phone number and person: 670 123 4567,O’Malley, John F.
+2024-11-13T13:08:45.533810 - ADD: Added: O’Malley, John F., 670.123.4567
+2024-11-13T13:08:45.551345 - DELETE: Deleted by phone number and person: 670.123.4567,O’Malley, John F.
+2024-11-13T13:08:45.863353 - ADD: Added: O’Malley, John F., 1 670 123 4567
+2024-11-13T13:08:45.884106 - DELETE: Deleted by phone number and person: 1 670 123 4567,O’Malley, John F.
+2024-11-13T13:08:46.223453 - ADD: Added: O’Malley, John F., 1.670.123.4567
+2024-11-13T13:08:46.229864 - DELETE: Deleted by phone number and person: 1.670.123.4567,O’Malley, John F.
+2024-11-13T13:08:46.541853 - ADD: Added: John O’Malley-Smith, 12345
+2024-11-13T13:08:46.557659 - DELETE: Deleted by phone number and person: 12345,John O’Malley-Smith
+2024-11-13T13:08:46.872482 - ADD: Added: John O’Malley-Smith, (703)111-2121
+2024-11-13T13:08:46.886591 - DELETE: Deleted by phone number and person: (703)111-2121,John O’Malley-Smith
+2024-11-13T13:08:47.202065 - ADD: Added: John O’Malley-Smith, 123-1234
+2024-11-13T13:08:47.217694 - DELETE: Deleted by phone number and person: 123-1234,John O’Malley-Smith
+2024-11-13T13:08:48.156605 - ADD: Added: John O’Malley-Smith, 1(703)123-1234
+2024-11-13T13:08:48.175742 - DELETE: Deleted by phone number and person: 1(703)123-1234,John O’Malley-Smith
+2024-11-13T13:08:48.488688 - ADD: Added: John O’Malley-Smith, 011 701 111 1234
+2024-11-13T13:08:48.507537 - DELETE: Deleted by phone number and person: 011 701 111 1234,John O’Malley-Smith
+2024-11-13T13:08:48.829369 - ADD: Added: John O’Malley-Smith, 12345.12345
+2024-11-13T13:08:48.840735 - DELETE: Deleted by phone number and person: 12345.12345,John O’Malley-Smith
+2024-11-13T13:08:49.156577 - ADD: Added: John O’Malley-Smith, 011 1 703 111 1234
+2024-11-13T13:08:49.172625 - DELETE: Deleted by phone number and person: 011 1 703 111 1234,John O’Malley-Smith
+2024-11-13T13:08:49.496621 - ADD: Added: John O’Malley-Smith, 22.22.22.22
+2024-11-13T13:08:49.512372 - DELETE: Deleted by phone number and person: 22.22.22.22,John O’Malley-Smith
+2024-11-13T13:08:49.836430 - ADD: Added: John O’Malley-Smith, 2222.2222
+2024-11-13T13:08:49.852068 - DELETE: Deleted by phone number and person: 2222.2222,John O’Malley-Smith
+2024-11-13T13:08:50.168620 - ADD: Added: John O’Malley-Smith, 111 111 1111
+2024-11-13T13:08:50.187125 - DELETE: Deleted by phone number and person: 111 111 1111,John O’Malley-Smith
+2024-11-13T13:08:50.525005 - ADD: Added: John O’Malley-Smith, (670)123-4567
+2024-11-13T13:08:50.542321 - DELETE: Deleted by phone number and person: (670)123-4567,John O’Malley-Smith
+2024-11-13T13:08:50.865903 - ADD: Added: John O’Malley-Smith, 670-123-4567
+2024-11-13T13:08:50.881932 - DELETE: Deleted by phone number and person: 670-123-4567,John O’Malley-Smith
+2024-11-13T13:08:51.202234 - ADD: Added: John O’Malley-Smith, 1-670-123-4567
+2024-11-13T13:08:51.214337 - DELETE: Deleted by phone number and person: 1-670-123-4567,John O’Malley-Smith
+2024-11-13T13:08:51.533226 - ADD: Added: John O’Malley-Smith, 1(670)123-4567
+2024-11-13T13:08:51.545965 - DELETE: Deleted by phone number and person: 1(670)123-4567,John O’Malley-Smith
+2024-11-13T13:08:51.860511 - ADD: Added: John O’Malley-Smith, 670 123 4567
+2024-11-13T13:08:51.872415 - DELETE: Deleted by phone number and person: 670 123 4567,John O’Malley-Smith
+2024-11-13T13:08:52.193857 - ADD: Added: John O’Malley-Smith, 670.123.4567
+2024-11-13T13:08:52.203806 - DELETE: Deleted by phone number and person: 670.123.4567,John O’Malley-Smith
+2024-11-13T13:08:52.513997 - ADD: Added: John O’Malley-Smith, 1 670 123 4567
+2024-11-13T13:08:52.533652 - DELETE: Deleted by phone number and person: 1 670 123 4567,John O’Malley-Smith
+2024-11-13T13:08:52.847147 - ADD: Added: John O’Malley-Smith, 1.670.123.4567
+2024-11-13T13:08:52.868717 - DELETE: Deleted by phone number and person: 1.670.123.4567,John O’Malley-Smith
+2024-11-13T13:08:53.177369 - ADD: Added: Cher, 12345
+2024-11-13T13:08:53.193044 - DELETE: Deleted by phone number and person: 12345,Cher
+2024-11-13T13:08:53.516215 - ADD: Added: Cher, (703)111-2121
+2024-11-13T13:08:53.534827 - DELETE: Deleted by phone number and person: (703)111-2121,Cher
+2024-11-13T13:08:53.857225 - ADD: Added: Cher, 123-1234
+2024-11-13T13:08:53.873351 - DELETE: Deleted by phone number and person: 123-1234,Cher
+2024-11-13T13:08:54.797459 - ADD: Added: Cher, 1(703)123-1234
+2024-11-13T13:08:54.806859 - DELETE: Deleted by phone number and person: 1(703)123-1234,Cher
+2024-11-13T13:08:55.126281 - ADD: Added: Cher, 011 701 111 1234
+2024-11-13T13:08:55.142126 - DELETE: Deleted by phone number and person: 011 701 111 1234,Cher
+2024-11-13T13:08:55.456119 - ADD: Added: Cher, 12345.12345
+2024-11-13T13:08:55.469448 - DELETE: Deleted by phone number and person: 12345.12345,Cher
+2024-11-13T13:08:55.788441 - ADD: Added: Cher, 011 1 703 111 1234
+2024-11-13T13:08:55.804876 - DELETE: Deleted by phone number and person: 011 1 703 111 1234,Cher
+2024-11-13T13:08:56.145986 - ADD: Added: Cher, 22.22.22.22
+2024-11-13T13:08:56.163081 - DELETE: Deleted by phone number and person: 22.22.22.22,Cher
+2024-11-13T13:08:56.479569 - ADD: Added: Cher, 2222.2222
+2024-11-13T13:08:56.494743 - DELETE: Deleted by phone number and person: 2222.2222,Cher
+2024-11-13T13:08:56.795676 - ADD: Added: Cher, 111 111 1111
+2024-11-13T13:08:56.842927 - DELETE: Deleted by phone number and person: 111 111 1111,Cher
+2024-11-13T13:08:57.170253 - ADD: Added: Cher, (670)123-4567
+2024-11-13T13:08:57.185871 - DELETE: Deleted by phone number and person: (670)123-4567,Cher
+2024-11-13T13:08:57.502997 - ADD: Added: Cher, 670-123-4567
+2024-11-13T13:08:57.518875 - DELETE: Deleted by phone number and person: 670-123-4567,Cher
+2024-11-13T13:08:57.848413 - ADD: Added: Cher, 1-670-123-4567
+2024-11-13T13:08:57.864365 - DELETE: Deleted by phone number and person: 1-670-123-4567,Cher
+2024-11-13T13:08:58.179757 - ADD: Added: Cher, 1(670)123-4567
+2024-11-13T13:08:58.179757 - DELETE: Deleted by phone number and person: 1(670)123-4567,Cher
+2024-11-13T13:08:58.526645 - ADD: Added: Cher, 670 123 4567
+2024-11-13T13:08:58.542299 - DELETE: Deleted by phone number and person: 670 123 4567,Cher
+2024-11-13T13:08:58.866003 - ADD: Added: Cher, 670.123.4567
+2024-11-13T13:08:58.888180 - DELETE: Deleted by phone number and person: 670.123.4567,Cher
+2024-11-13T13:08:59.198210 - ADD: Added: Cher, 1 670 123 4567
+2024-11-13T13:08:59.214168 - DELETE: Deleted by phone number and person: 1 670 123 4567,Cher
+2024-11-13T13:08:59.527004 - ADD: Added: Cher, 1.670.123.4567
+2024-11-13T13:08:59.542219 - DELETE: Deleted by phone number and person: 1.670.123.4567,Cher
+2024-11-13T13:09:21.153040 - ADD: Added: Bruce Schneier, 123-4567
+2024-11-13T13:09:21.168850 - DELETE: Deleted by name: Bruce Schneier,123-4567
+2024-11-13T13:09:21.480181 - ADD: Added: Schneier, Bruce, 123-4567
+2024-11-13T13:09:21.480181 - DELETE: Deleted by name: Schneier, Bruce,123-4567
+2024-11-13T13:09:21.805576 - ADD: Added: Schneier, Bruce Wayne, 123-4567
+2024-11-13T13:09:21.819798 - DELETE: Deleted by name: Schneier, Bruce Wayne,123-4567
+2024-11-13T13:09:22.131832 - ADD: Added: O’Malley, John F., 123-4567
+2024-11-13T13:09:22.147587 - DELETE: Deleted by name: O’Malley, John F.,123-4567
+2024-11-13T13:09:22.466983 - ADD: Added: John O’Malley-Smith, 123-4567
+2024-11-13T13:09:22.478599 - DELETE: Deleted by name: John O’Malley-Smith,123-4567
+2024-11-13T13:09:22.780513 - ADD: Added: Cher, 123-4567
+2024-11-13T13:09:22.796145 - DELETE: Deleted by name: Cher,123-4567
+2024-11-13T13:09:25.226200 - ADD: Added: John Doe, 12345
+2024-11-13T13:09:25.257526 - DELETE: Deleted by phone number and person: 12345,John Doe
+2024-11-13T13:09:25.556320 - ADD: Added: John Doe, (703)111-2121
+2024-11-13T13:09:25.582059 - DELETE: Deleted by phone number and person: (703)111-2121,John Doe
+2024-11-13T13:09:25.896853 - ADD: Added: John Doe, 123-1234
+2024-11-13T13:09:25.912949 - DELETE: Deleted by phone number and person: 123-1234,John Doe
+2024-11-13T13:09:26.867549 - ADD: Added: John Doe, 1(703)123-1234
+2024-11-13T13:09:26.883161 - DELETE: Deleted by phone number and person: 1(703)123-1234,John Doe
+2024-11-13T13:09:27.234888 - ADD: Added: John Doe, 011 701 111 1234
+2024-11-13T13:09:27.248979 - DELETE: Deleted by phone number and person: 011 701 111 1234,John Doe
+2024-11-13T13:09:27.550104 - ADD: Added: John Doe, 12345.12345
+2024-11-13T13:09:27.569623 - DELETE: Deleted by phone number and person: 12345.12345,John Doe
+2024-11-13T13:09:27.885055 - ADD: Added: John Doe, 011 1 703 111 1234
+2024-11-13T13:09:27.897571 - DELETE: Deleted by phone number and person: 011 1 703 111 1234,John Doe
+2024-11-13T13:09:28.213234 - ADD: Added: John Doe, 22.22.22.22
+2024-11-13T13:09:28.228861 - DELETE: Deleted by phone number and person: 22.22.22.22,John Doe
+2024-11-13T13:09:28.541609 - ADD: Added: John Doe, 2222.2222
+2024-11-13T13:09:28.557247 - DELETE: Deleted by phone number and person: 2222.2222,John Doe
+2024-11-13T13:09:28.872818 - ADD: Added: John Doe, 111 111 1111
+2024-11-13T13:09:28.888760 - DELETE: Deleted by phone number and person: 111 111 1111,John Doe
+2024-11-13T13:09:29.189420 - ADD: Added: John Doe, (670)123-4567
+2024-11-13T13:09:29.211635 - DELETE: Deleted by phone number and person: (670)123-4567,John Doe
+2024-11-13T13:09:29.522819 - ADD: Added: John Doe, 670-123-4567
+2024-11-13T13:09:29.538550 - DELETE: Deleted by phone number and person: 670-123-4567,John Doe
+2024-11-13T13:09:29.848744 - ADD: Added: John Doe, 1-670-123-4567
+2024-11-13T13:09:29.873203 - DELETE: Deleted by phone number and person: 1-670-123-4567,John Doe
+2024-11-13T13:09:30.192603 - ADD: Added: John Doe, 1(670)123-4567
+2024-11-13T13:09:30.204760 - DELETE: Deleted by phone number and person: 1(670)123-4567,John Doe
+2024-11-13T13:09:30.536399 - ADD: Added: John Doe, 670 123 4567
+2024-11-13T13:09:30.552411 - DELETE: Deleted by phone number and person: 670 123 4567,John Doe
+2024-11-13T13:09:30.868116 - ADD: Added: John Doe, 670.123.4567
+2024-11-13T13:09:30.890267 - DELETE: Deleted by phone number and person: 670.123.4567,John Doe
+2024-11-13T13:09:31.197355 - ADD: Added: John Doe, 1 670 123 4567
+2024-11-13T13:09:31.216078 - DELETE: Deleted by phone number and person: 1 670 123 4567,John Doe
+2024-11-13T13:09:31.529945 - ADD: Added: John Doe, 1.670.123.4567
+2024-11-13T13:09:31.544981 - DELETE: Deleted by phone number and person: 1.670.123.4567,John Doe
+2024-11-13T13:20:38.461468 - LIST: Listed phonebook entries
+2024-11-13T13:29:00.440921 - ADD: Added: Bruce Schneier, +1(703)111-2121
+2024-11-13T13:29:13.225039 - ADD: Added: Bruce Schneier, 12345
+2024-11-13T13:29:13.239586 - DELETE: Deleted by phone number and person: 12345,Bruce Schneier
+2024-11-13T13:29:13.582063 - ADD: Added: Bruce Schneier, (703)111-2121
+2024-11-13T13:29:13.597697 - DELETE: Deleted by phone number and person: (703)111-2121,Bruce Schneier
+2024-11-13T13:29:13.935349 - ADD: Added: Bruce Schneier, 123-1234
+2024-11-13T13:29:13.957579 - DELETE: Deleted by phone number and person: 123-1234,Bruce Schneier
+2024-11-13T13:29:14.278329 - Denied due to number: Denied these input: Bruce Schneier,  1(703)111-2121
+2024-11-13T13:29:14.680740 - Denied due to number: Denied these input: Bruce Schneier,  32 (21) 212-2324
+2024-11-13T13:29:15.054101 - ADD: Added: Bruce Schneier, 1(703)123-1234
+2024-11-13T13:29:15.072618 - DELETE: Deleted by phone number and person: 1(703)123-1234,Bruce Schneier
+2024-11-13T13:29:15.389550 - ADD: Added: Bruce Schneier, 011 701 111 1234
+2024-11-13T13:29:15.402673 - DELETE: Deleted by phone number and person: 011 701 111 1234,Bruce Schneier
+2024-11-13T13:29:15.760514 - ADD: Added: Bruce Schneier, 12345.12345
+2024-11-13T13:29:15.775709 - DELETE: Deleted by phone number and person: 12345.12345,Bruce Schneier
+2024-11-13T13:29:16.092159 - ADD: Added: Bruce Schneier, 011 1 703 111 1234
+2024-11-13T13:29:16.116522 - DELETE: Deleted by phone number and person: 011 1 703 111 1234,Bruce Schneier
+2024-11-13T13:29:16.425238 - ADD: Added: Bruce Schneier, 22.22.22.22
+2024-11-13T13:29:16.457164 - DELETE: Deleted by phone number and person: 22.22.22.22,Bruce Schneier
+2024-11-13T13:29:16.785531 - ADD: Added: Bruce Schneier, 2222.2222
+2024-11-13T13:29:16.801178 - DELETE: Deleted by phone number and person: 2222.2222,Bruce Schneier
+2024-11-13T13:29:17.115274 - ADD: Added: Bruce Schneier, 111 111 1111
+2024-11-13T13:29:17.131132 - DELETE: Deleted by phone number and person: 111 111 1111,Bruce Schneier
+2024-11-13T13:29:17.444820 - ADD: Added: Bruce Schneier, (670)123-4567
+2024-11-13T13:29:17.460442 - DELETE: Deleted by phone number and person: (670)123-4567,Bruce Schneier
+2024-11-13T13:29:17.793104 - ADD: Added: Bruce Schneier, 670-123-4567
+2024-11-13T13:29:17.808752 - DELETE: Deleted by phone number and person: 670-123-4567,Bruce Schneier
+2024-11-13T13:29:18.147194 - ADD: Added: Bruce Schneier, 1-670-123-4567
+2024-11-13T13:29:18.164830 - DELETE: Deleted by phone number and person: 1-670-123-4567,Bruce Schneier
+2024-11-13T13:29:18.477442 - ADD: Added: Bruce Schneier, 1(670)123-4567
+2024-11-13T13:29:18.492973 - DELETE: Deleted by phone number and person: 1(670)123-4567,Bruce Schneier
+2024-11-13T13:29:18.810618 - ADD: Added: Bruce Schneier, 670 123 4567
+2024-11-13T13:29:18.826446 - DELETE: Deleted by phone number and person: 670 123 4567,Bruce Schneier
+2024-11-13T13:29:19.141873 - ADD: Added: Bruce Schneier, 670.123.4567
+2024-11-13T13:29:19.157550 - DELETE: Deleted by phone number and person: 670.123.4567,Bruce Schneier
+2024-11-13T13:29:19.480886 - ADD: Added: Bruce Schneier, 1 670 123 4567
+2024-11-13T13:29:19.496827 - DELETE: Deleted by phone number and person: 1 670 123 4567,Bruce Schneier
+2024-11-13T13:29:19.817813 - ADD: Added: Bruce Schneier, 1.670.123.4567
+2024-11-13T13:29:19.828514 - DELETE: Deleted by phone number and person: 1.670.123.4567,Bruce Schneier
+2024-11-13T13:29:20.180145 - ADD: Added: Schneier, Bruce, 12345
+2024-11-13T13:29:20.192663 - DELETE: Deleted by phone number and person: 12345,Schneier, Bruce
+2024-11-13T13:29:20.502237 - ADD: Added: Schneier, Bruce, (703)111-2121
+2024-11-13T13:29:20.524310 - DELETE: Deleted by phone number and person: (703)111-2121,Schneier, Bruce
+2024-11-13T13:29:20.849850 - ADD: Added: Schneier, Bruce, 123-1234
+2024-11-13T13:29:20.864864 - DELETE: Deleted by phone number and person: 123-1234,Schneier, Bruce
+2024-11-13T13:29:21.182036 - Denied due to number: Denied these input: Schneier, Bruce,  1(703)111-2121
+2024-11-13T13:29:21.488569 - Denied due to number: Denied these input: Schneier, Bruce,  32 (21) 212-2324
+2024-11-13T13:29:21.804920 - ADD: Added: Schneier, Bruce, 1(703)123-1234
+2024-11-13T13:29:21.820540 - DELETE: Deleted by phone number and person: 1(703)123-1234,Schneier, Bruce
+2024-11-13T13:29:22.153263 - ADD: Added: Schneier, Bruce, 011 701 111 1234
+2024-11-13T13:29:22.169158 - DELETE: Deleted by phone number and person: 011 701 111 1234,Schneier, Bruce
+2024-11-13T13:29:22.513565 - ADD: Added: Schneier, Bruce, 12345.12345
+2024-11-13T13:29:22.529663 - DELETE: Deleted by phone number and person: 12345.12345,Schneier, Bruce
+2024-11-13T13:29:22.860845 - ADD: Added: Schneier, Bruce, 011 1 703 111 1234
+2024-11-13T13:29:22.867631 - DELETE: Deleted by phone number and person: 011 1 703 111 1234,Schneier, Bruce
+2024-11-13T13:29:23.199842 - ADD: Added: Schneier, Bruce, 22.22.22.22
+2024-11-13T13:29:23.215554 - DELETE: Deleted by phone number and person: 22.22.22.22,Schneier, Bruce
+2024-11-13T13:29:23.547390 - ADD: Added: Schneier, Bruce, 2222.2222
+2024-11-13T13:29:23.563031 - DELETE: Deleted by phone number and person: 2222.2222,Schneier, Bruce
+2024-11-13T13:29:23.904946 - ADD: Added: Schneier, Bruce, 111 111 1111
+2024-11-13T13:29:23.920578 - DELETE: Deleted by phone number and person: 111 111 1111,Schneier, Bruce
+2024-11-13T13:29:24.244460 - ADD: Added: Schneier, Bruce, (670)123-4567
+2024-11-13T13:29:24.260443 - DELETE: Deleted by phone number and person: (670)123-4567,Schneier, Bruce
+2024-11-13T13:29:24.586762 - ADD: Added: Schneier, Bruce, 670-123-4567
+2024-11-13T13:29:24.597093 - DELETE: Deleted by phone number and person: 670-123-4567,Schneier, Bruce
+2024-11-13T13:29:24.910272 - ADD: Added: Schneier, Bruce, 1-670-123-4567
+2024-11-13T13:29:24.941759 - DELETE: Deleted by phone number and person: 1-670-123-4567,Schneier, Bruce
+2024-11-13T13:29:25.269512 - ADD: Added: Schneier, Bruce, 1(670)123-4567
+2024-11-13T13:29:25.288145 - DELETE: Deleted by phone number and person: 1(670)123-4567,Schneier, Bruce
+2024-11-13T13:29:25.600171 - ADD: Added: Schneier, Bruce, 670 123 4567
+2024-11-13T13:29:25.618830 - DELETE: Deleted by phone number and person: 670 123 4567,Schneier, Bruce
+2024-11-13T13:29:25.979513 - ADD: Added: Schneier, Bruce, 670.123.4567
+2024-11-13T13:29:25.994042 - DELETE: Deleted by phone number and person: 670.123.4567,Schneier, Bruce
+2024-11-13T13:29:26.369207 - ADD: Added: Schneier, Bruce, 1 670 123 4567
+2024-11-13T13:29:26.385085 - DELETE: Deleted by phone number and person: 1 670 123 4567,Schneier, Bruce
+2024-11-13T13:29:26.725908 - ADD: Added: Schneier, Bruce, 1.670.123.4567
+2024-11-13T13:29:26.743563 - DELETE: Deleted by phone number and person: 1.670.123.4567,Schneier, Bruce
+2024-11-13T13:29:27.049999 - ADD: Added: Schneier, Bruce Wayne, 12345
+2024-11-13T13:29:27.073365 - DELETE: Deleted by phone number and person: 12345,Schneier, Bruce Wayne
+2024-11-13T13:29:27.391732 - ADD: Added: Schneier, Bruce Wayne, (703)111-2121
+2024-11-13T13:29:27.407818 - DELETE: Deleted by phone number and person: (703)111-2121,Schneier, Bruce Wayne
+2024-11-13T13:29:27.722763 - ADD: Added: Schneier, Bruce Wayne, 123-1234
+2024-11-13T13:29:27.742539 - DELETE: Deleted by phone number and person: 123-1234,Schneier, Bruce Wayne
+2024-11-13T13:29:28.074750 - Denied due to number: Denied these input: Schneier, Bruce Wayne,  1(703)111-2121
+2024-11-13T13:29:28.386984 - Denied due to number: Denied these input: Schneier, Bruce Wayne,  32 (21) 212-2324
+2024-11-13T13:29:28.719400 - ADD: Added: Schneier, Bruce Wayne, 1(703)123-1234
+2024-11-13T13:29:28.737105 - DELETE: Deleted by phone number and person: 1(703)123-1234,Schneier, Bruce Wayne
+2024-11-13T13:29:29.072586 - ADD: Added: Schneier, Bruce Wayne, 011 701 111 1234
+2024-11-13T13:29:29.091292 - DELETE: Deleted by phone number and person: 011 701 111 1234,Schneier, Bruce Wayne
+2024-11-13T13:29:29.414844 - ADD: Added: Schneier, Bruce Wayne, 12345.12345
+2024-11-13T13:29:29.430489 - DELETE: Deleted by phone number and person: 12345.12345,Schneier, Bruce Wayne
+2024-11-13T13:29:29.786445 - ADD: Added: Schneier, Bruce Wayne, 011 1 703 111 1234
+2024-11-13T13:29:29.802649 - DELETE: Deleted by phone number and person: 011 1 703 111 1234,Schneier, Bruce Wayne
+2024-11-13T13:29:30.118275 - ADD: Added: Schneier, Bruce Wayne, 22.22.22.22
+2024-11-13T13:29:30.133930 - DELETE: Deleted by phone number and person: 22.22.22.22,Schneier, Bruce Wayne
+2024-11-13T13:29:30.464661 - ADD: Added: Schneier, Bruce Wayne, 2222.2222
+2024-11-13T13:29:30.465912 - DELETE: Deleted by phone number and person: 2222.2222,Schneier, Bruce Wayne
+2024-11-13T13:29:30.811662 - ADD: Added: Schneier, Bruce Wayne, 111 111 1111
+2024-11-13T13:29:30.827276 - DELETE: Deleted by phone number and person: 111 111 1111,Schneier, Bruce Wayne
+2024-11-13T13:29:31.166937 - ADD: Added: Schneier, Bruce Wayne, (670)123-4567
+2024-11-13T13:29:31.180545 - DELETE: Deleted by phone number and person: (670)123-4567,Schneier, Bruce Wayne
+2024-11-13T13:29:31.513013 - ADD: Added: Schneier, Bruce Wayne, 670-123-4567
+2024-11-13T13:29:31.528508 - DELETE: Deleted by phone number and person: 670-123-4567,Schneier, Bruce Wayne
+2024-11-13T13:29:31.860223 - ADD: Added: Schneier, Bruce Wayne, 1-670-123-4567
+2024-11-13T13:29:31.876178 - DELETE: Deleted by phone number and person: 1-670-123-4567,Schneier, Bruce Wayne
+2024-11-13T13:29:32.214188 - ADD: Added: Schneier, Bruce Wayne, 1(670)123-4567
+2024-11-13T13:29:32.245754 - DELETE: Deleted by phone number and person: 1(670)123-4567,Schneier, Bruce Wayne
+2024-11-13T13:29:32.570992 - ADD: Added: Schneier, Bruce Wayne, 670 123 4567
+2024-11-13T13:29:32.597814 - DELETE: Deleted by phone number and person: 670 123 4567,Schneier, Bruce Wayne
+2024-11-13T13:29:32.934523 - ADD: Added: Schneier, Bruce Wayne, 670.123.4567
+2024-11-13T13:29:32.953943 - DELETE: Deleted by phone number and person: 670.123.4567,Schneier, Bruce Wayne
+2024-11-13T13:29:33.272306 - ADD: Added: Schneier, Bruce Wayne, 1 670 123 4567
+2024-11-13T13:29:33.305039 - DELETE: Deleted by phone number and person: 1 670 123 4567,Schneier, Bruce Wayne
+2024-11-13T13:29:33.640966 - ADD: Added: Schneier, Bruce Wayne, 1.670.123.4567
+2024-11-13T13:29:33.653066 - DELETE: Deleted by phone number and person: 1.670.123.4567,Schneier, Bruce Wayne
+2024-11-13T13:29:34.000597 - ADD: Added: O’Malley, John F., 12345
+2024-11-13T13:29:34.015882 - DELETE: Deleted by phone number and person: 12345,O’Malley, John F.
+2024-11-13T13:29:34.354705 - ADD: Added: O’Malley, John F., (703)111-2121
+2024-11-13T13:29:34.370689 - DELETE: Deleted by phone number and person: (703)111-2121,O’Malley, John F.
+2024-11-13T13:29:34.703970 - ADD: Added: O’Malley, John F., 123-1234
+2024-11-13T13:29:34.703970 - DELETE: Deleted by phone number and person: 123-1234,O’Malley, John F.
+2024-11-13T13:29:35.020566 - Denied due to number: Denied these input: O’Malley, John F.,  1(703)111-2121
+2024-11-13T13:29:35.328955 - Denied due to number: Denied these input: O’Malley, John F.,  32 (21) 212-2324
+2024-11-13T13:29:35.727544 - ADD: Added: O’Malley, John F., 1(703)123-1234
+2024-11-13T13:29:35.741053 - DELETE: Deleted by phone number and person: 1(703)123-1234,O’Malley, John F.
+2024-11-13T13:29:36.050183 - ADD: Added: O’Malley, John F., 011 701 111 1234
+2024-11-13T13:29:36.065823 - DELETE: Deleted by phone number and person: 011 701 111 1234,O’Malley, John F.
+2024-11-13T13:29:36.379100 - ADD: Added: O’Malley, John F., 12345.12345
+2024-11-13T13:29:36.395480 - DELETE: Deleted by phone number and person: 12345.12345,O’Malley, John F.
+2024-11-13T13:29:36.739440 - ADD: Added: O’Malley, John F., 011 1 703 111 1234
+2024-11-13T13:29:36.762557 - DELETE: Deleted by phone number and person: 011 1 703 111 1234,O’Malley, John F.
+2024-11-13T13:29:37.086077 - ADD: Added: O’Malley, John F., 22.22.22.22
+2024-11-13T13:29:37.101978 - DELETE: Deleted by phone number and person: 22.22.22.22,O’Malley, John F.
+2024-11-13T13:29:37.418556 - ADD: Added: O’Malley, John F., 2222.2222
+2024-11-13T13:29:37.434359 - DELETE: Deleted by phone number and person: 2222.2222,O’Malley, John F.
+2024-11-13T13:29:37.762373 - ADD: Added: O’Malley, John F., 111 111 1111
+2024-11-13T13:29:37.780173 - DELETE: Deleted by phone number and person: 111 111 1111,O’Malley, John F.
+2024-11-13T13:29:38.106648 - ADD: Added: O’Malley, John F., (670)123-4567
+2024-11-13T13:29:38.123731 - DELETE: Deleted by phone number and person: (670)123-4567,O’Malley, John F.
+2024-11-13T13:29:38.466357 - ADD: Added: O’Malley, John F., 670-123-4567
+2024-11-13T13:29:38.482521 - DELETE: Deleted by phone number and person: 670-123-4567,O’Malley, John F.
+2024-11-13T13:29:38.821739 - ADD: Added: O’Malley, John F., 1-670-123-4567
+2024-11-13T13:29:38.838451 - DELETE: Deleted by phone number and person: 1-670-123-4567,O’Malley, John F.
+2024-11-13T13:29:39.167931 - ADD: Added: O’Malley, John F., 1(670)123-4567
+2024-11-13T13:29:39.183732 - DELETE: Deleted by phone number and person: 1(670)123-4567,O’Malley, John F.
+2024-11-13T13:29:39.499476 - ADD: Added: O’Malley, John F., 670 123 4567
+2024-11-13T13:29:39.514270 - DELETE: Deleted by phone number and person: 670 123 4567,O’Malley, John F.
+2024-11-13T13:29:39.843307 - ADD: Added: O’Malley, John F., 670.123.4567
+2024-11-13T13:29:39.859383 - DELETE: Deleted by phone number and person: 670.123.4567,O’Malley, John F.
+2024-11-13T13:29:40.208461 - ADD: Added: O’Malley, John F., 1 670 123 4567
+2024-11-13T13:29:40.224498 - DELETE: Deleted by phone number and person: 1 670 123 4567,O’Malley, John F.
+2024-11-13T13:29:40.554909 - ADD: Added: O’Malley, John F., 1.670.123.4567
+2024-11-13T13:29:40.570970 - DELETE: Deleted by phone number and person: 1.670.123.4567,O’Malley, John F.
+2024-11-13T13:29:40.902180 - ADD: Added: John O’Malley-Smith, 12345
+2024-11-13T13:29:40.918136 - DELETE: Deleted by phone number and person: 12345,John O’Malley-Smith
+2024-11-13T13:29:41.240977 - ADD: Added: John O’Malley-Smith, (703)111-2121
+2024-11-13T13:29:41.256813 - DELETE: Deleted by phone number and person: (703)111-2121,John O’Malley-Smith
+2024-11-13T13:29:41.572097 - ADD: Added: John O’Malley-Smith, 123-1234
+2024-11-13T13:29:41.593279 - DELETE: Deleted by phone number and person: 123-1234,John O’Malley-Smith
+2024-11-13T13:29:41.927404 - Denied due to number: Denied these input: John O’Malley-Smith,  1(703)111-2121
+2024-11-13T13:29:42.259174 - Denied due to number: Denied these input: John O’Malley-Smith,  32 (21) 212-2324
+2024-11-13T13:29:42.601456 - ADD: Added: John O’Malley-Smith, 1(703)123-1234
+2024-11-13T13:29:42.617501 - DELETE: Deleted by phone number and person: 1(703)123-1234,John O’Malley-Smith
+2024-11-13T13:29:42.958760 - ADD: Added: John O’Malley-Smith, 011 701 111 1234
+2024-11-13T13:29:42.965797 - DELETE: Deleted by phone number and person: 011 701 111 1234,John O’Malley-Smith
+2024-11-13T13:29:43.290752 - ADD: Added: John O’Malley-Smith, 12345.12345
+2024-11-13T13:29:43.313494 - DELETE: Deleted by phone number and person: 12345.12345,John O’Malley-Smith
+2024-11-13T13:29:43.636251 - ADD: Added: John O’Malley-Smith, 011 1 703 111 1234
+2024-11-13T13:29:43.652292 - DELETE: Deleted by phone number and person: 011 1 703 111 1234,John O’Malley-Smith
+2024-11-13T13:29:44.000167 - ADD: Added: John O’Malley-Smith, 22.22.22.22
+2024-11-13T13:29:44.016127 - DELETE: Deleted by phone number and person: 22.22.22.22,John O’Malley-Smith
+2024-11-13T13:29:44.327586 - ADD: Added: John O’Malley-Smith, 2222.2222
+2024-11-13T13:29:44.346945 - DELETE: Deleted by phone number and person: 2222.2222,John O’Malley-Smith
+2024-11-13T13:29:44.672591 - ADD: Added: John O’Malley-Smith, 111 111 1111
+2024-11-13T13:29:44.706162 - DELETE: Deleted by phone number and person: 111 111 1111,John O’Malley-Smith
+2024-11-13T13:29:45.019948 - ADD: Added: John O’Malley-Smith, (670)123-4567
+2024-11-13T13:29:45.035610 - DELETE: Deleted by phone number and person: (670)123-4567,John O’Malley-Smith
+2024-11-13T13:29:45.366470 - ADD: Added: John O’Malley-Smith, 670-123-4567
+2024-11-13T13:29:45.382609 - DELETE: Deleted by phone number and person: 670-123-4567,John O’Malley-Smith
+2024-11-13T13:29:45.696908 - ADD: Added: John O’Malley-Smith, 1-670-123-4567
+2024-11-13T13:29:45.718854 - DELETE: Deleted by phone number and person: 1-670-123-4567,John O’Malley-Smith
+2024-11-13T13:29:46.045218 - ADD: Added: John O’Malley-Smith, 1(670)123-4567
+2024-11-13T13:29:46.060755 - DELETE: Deleted by phone number and person: 1(670)123-4567,John O’Malley-Smith
+2024-11-13T13:29:46.423477 - ADD: Added: John O’Malley-Smith, 670 123 4567
+2024-11-13T13:29:46.439600 - DELETE: Deleted by phone number and person: 670 123 4567,John O’Malley-Smith
+2024-11-13T13:29:46.770445 - ADD: Added: John O’Malley-Smith, 670.123.4567
+2024-11-13T13:29:46.790567 - DELETE: Deleted by phone number and person: 670.123.4567,John O’Malley-Smith
+2024-11-13T13:29:47.127847 - ADD: Added: John O’Malley-Smith, 1 670 123 4567
+2024-11-13T13:29:47.144345 - DELETE: Deleted by phone number and person: 1 670 123 4567,John O’Malley-Smith
+2024-11-13T13:29:47.460284 - ADD: Added: John O’Malley-Smith, 1.670.123.4567
+2024-11-13T13:29:47.491534 - DELETE: Deleted by phone number and person: 1.670.123.4567,John O’Malley-Smith
+2024-11-13T13:29:47.807227 - ADD: Added: Cher, 12345
+2024-11-13T13:29:47.823277 - DELETE: Deleted by phone number and person: 12345,Cher
+2024-11-13T13:29:48.152852 - ADD: Added: Cher, (703)111-2121
+2024-11-13T13:29:48.158959 - DELETE: Deleted by phone number and person: (703)111-2121,Cher
+2024-11-13T13:29:48.499430 - ADD: Added: Cher, 123-1234
+2024-11-13T13:29:48.515316 - DELETE: Deleted by phone number and person: 123-1234,Cher
+2024-11-13T13:29:48.828763 - Denied due to number: Denied these input: Cher,  1(703)111-2121
+2024-11-13T13:29:49.163856 - Denied due to number: Denied these input: Cher,  32 (21) 212-2324
+2024-11-13T13:29:49.511344 - ADD: Added: Cher, 1(703)123-1234
+2024-11-13T13:29:49.527354 - DELETE: Deleted by phone number and person: 1(703)123-1234,Cher
+2024-11-13T13:29:49.853575 - ADD: Added: Cher, 011 701 111 1234
+2024-11-13T13:29:49.860091 - DELETE: Deleted by phone number and person: 011 701 111 1234,Cher
+2024-11-13T13:29:50.187335 - ADD: Added: Cher, 12345.12345
+2024-11-13T13:29:50.195041 - DELETE: Deleted by phone number and person: 12345.12345,Cher
+2024-11-13T13:29:50.517402 - ADD: Added: Cher, 011 1 703 111 1234
+2024-11-13T13:29:50.538282 - DELETE: Deleted by phone number and person: 011 1 703 111 1234,Cher
+2024-11-13T13:29:50.875243 - ADD: Added: Cher, 22.22.22.22
+2024-11-13T13:29:50.890859 - DELETE: Deleted by phone number and person: 22.22.22.22,Cher
+2024-11-13T13:29:51.227019 - ADD: Added: Cher, 2222.2222
+2024-11-13T13:29:51.234526 - DELETE: Deleted by phone number and person: 2222.2222,Cher
+2024-11-13T13:29:51.566258 - ADD: Added: Cher, 111 111 1111
+2024-11-13T13:29:51.582322 - DELETE: Deleted by phone number and person: 111 111 1111,Cher
+2024-11-13T13:29:51.912721 - ADD: Added: Cher, (670)123-4567
+2024-11-13T13:29:51.928181 - DELETE: Deleted by phone number and person: (670)123-4567,Cher
+2024-11-13T13:29:52.252875 - ADD: Added: Cher, 670-123-4567
+2024-11-13T13:29:52.268632 - DELETE: Deleted by phone number and person: 670-123-4567,Cher
+2024-11-13T13:29:52.583157 - ADD: Added: Cher, 1-670-123-4567
+2024-11-13T13:29:52.614723 - DELETE: Deleted by phone number and person: 1-670-123-4567,Cher
+2024-11-13T13:29:52.930336 - ADD: Added: Cher, 1(670)123-4567
+2024-11-13T13:29:52.960993 - DELETE: Deleted by phone number and person: 1(670)123-4567,Cher
+2024-11-13T13:29:53.294927 - ADD: Added: Cher, 670 123 4567
+2024-11-13T13:29:53.315594 - DELETE: Deleted by phone number and person: 670 123 4567,Cher
+2024-11-13T13:29:53.632045 - ADD: Added: Cher, 670.123.4567
+2024-11-13T13:29:53.646864 - DELETE: Deleted by phone number and person: 670.123.4567,Cher
+2024-11-13T13:29:53.978238 - ADD: Added: Cher, 1 670 123 4567
+2024-11-13T13:29:53.994019 - DELETE: Deleted by phone number and person: 1 670 123 4567,Cher
+2024-11-13T13:29:54.354951 - ADD: Added: Cher, 1.670.123.4567
+2024-11-13T13:29:54.370993 - DELETE: Deleted by phone number and person: 1.670.123.4567,Cher
+2024-11-13T13:29:54.670120 - Denied due to name: Denied these input: Ron O’’Henry, 123
+2024-11-13T13:29:54.978283 - Denied due to name: Denied these input: Ron O’’Henry, 1/703/123/1234
+2024-11-13T13:29:55.287601 - Denied due to name: Denied these input: Ron O’’Henry, Nr 102-123-1234
+2024-11-13T13:29:55.667114 - Denied due to name: Denied these input: Ron O’’Henry, <script>alert("XSS")</script>
+2024-11-13T13:29:55.979007 - Denied due to name: Denied these input: Ron O’’Henry, 7031111234
+2024-11-13T13:29:56.294508 - Denied due to name: Denied these input: Ron O’’Henry,  1234 (201) 123-1234
+2024-11-13T13:29:56.586657 - Denied due to name: Denied these input: Ron O’’Henry, (001) 123-1234
+2024-11-13T13:29:56.908165 - Denied due to name: Denied these input: Ron O’’Henry,  01 (703) 123-1234
+2024-11-13T13:29:57.237056 - Denied due to name: Denied these input: Ron O’’Henry, (703) 123-1234 ext 204
+2024-11-13T13:29:57.537750 - Denied due to name: Denied these input: Ron O’’Henry, select * from users;
+2024-11-13T13:29:57.861051 - Denied due to name: Denied these input: Ron O’Henry-Smith-Barnes, 123
+2024-11-13T13:29:58.174519 - Denied due to name: Denied these input: Ron O’Henry-Smith-Barnes, 1/703/123/1234
+2024-11-13T13:29:58.492974 - Denied due to name: Denied these input: Ron O’Henry-Smith-Barnes, Nr 102-123-1234
+2024-11-13T13:29:58.797054 - Denied due to name: Denied these input: Ron O’Henry-Smith-Barnes, <script>alert("XSS")</script>
+2024-11-13T13:29:59.098384 - Denied due to name: Denied these input: Ron O’Henry-Smith-Barnes, 7031111234
+2024-11-13T13:29:59.403910 - Denied due to name: Denied these input: Ron O’Henry-Smith-Barnes,  1234 (201) 123-1234
+2024-11-13T13:29:59.722230 - Denied due to name: Denied these input: Ron O’Henry-Smith-Barnes, (001) 123-1234
+2024-11-13T13:30:00.042593 - Denied due to name: Denied these input: Ron O’Henry-Smith-Barnes,  01 (703) 123-1234
+2024-11-13T13:30:00.349733 - Denied due to name: Denied these input: Ron O’Henry-Smith-Barnes, (703) 123-1234 ext 204
+2024-11-13T13:30:00.660658 - Denied due to name: Denied these input: Ron O’Henry-Smith-Barnes, select * from users;
+2024-11-13T13:30:00.961882 - Denied due to name: Denied these input: L33t Hacker, 123
+2024-11-13T13:30:01.273766 - Denied due to name: Denied these input: L33t Hacker, 1/703/123/1234
+2024-11-13T13:30:01.574201 - Denied due to name: Denied these input: L33t Hacker, Nr 102-123-1234
+2024-11-13T13:30:01.878265 - Denied due to name: Denied these input: L33t Hacker, <script>alert("XSS")</script>
+2024-11-13T13:30:02.205755 - Denied due to name: Denied these input: L33t Hacker, 7031111234
+2024-11-13T13:30:02.504441 - Denied due to name: Denied these input: L33t Hacker,  1234 (201) 123-1234
+2024-11-13T13:30:02.814586 - Denied due to name: Denied these input: L33t Hacker, (001) 123-1234
+2024-11-13T13:30:03.177368 - Denied due to name: Denied these input: L33t Hacker,  01 (703) 123-1234
+2024-11-13T13:30:03.487365 - Denied due to name: Denied these input: L33t Hacker, (703) 123-1234 ext 204
+2024-11-13T13:30:03.800701 - Denied due to name: Denied these input: L33t Hacker, select * from users;
+2024-11-13T13:30:04.129784 - Denied due to name: Denied these input: <script>alert("XSS")</script>, 123
+2024-11-13T13:30:04.458230 - Denied due to name: Denied these input: <script>alert("XSS")</script>, 1/703/123/1234
+2024-11-13T13:30:04.844251 - Denied due to name: Denied these input: <script>alert("XSS")</script>, Nr 102-123-1234
+2024-11-13T13:30:05.222131 - Denied due to name: Denied these input: <script>alert("XSS")</script>, <script>alert("XSS")</script>
+2024-11-13T13:30:05.533500 - Denied due to name: Denied these input: <script>alert("XSS")</script>, 7031111234
+2024-11-13T13:30:05.920613 - Denied due to name: Denied these input: <script>alert("XSS")</script>,  1234 (201) 123-1234
+2024-11-13T13:30:06.222631 - Denied due to name: Denied these input: <script>alert("XSS")</script>, (001) 123-1234
+2024-11-13T13:30:06.531926 - Denied due to name: Denied these input: <script>alert("XSS")</script>,  01 (703) 123-1234
+2024-11-13T13:30:06.810363 - Denied due to name: Denied these input: <script>alert("XSS")</script>, (703) 123-1234 ext 204
+2024-11-13T13:30:07.088929 - Denied due to name: Denied these input: <script>alert("XSS")</script>, select * from users;
+2024-11-13T13:30:07.356313 - Denied due to name: Denied these input: Brad Everett Samuel Smith, 123
+2024-11-13T13:30:07.645423 - Denied due to name: Denied these input: Brad Everett Samuel Smith, 1/703/123/1234
+2024-11-13T13:30:07.939535 - Denied due to name: Denied these input: Brad Everett Samuel Smith, Nr 102-123-1234
+2024-11-13T13:30:08.217397 - Denied due to name: Denied these input: Brad Everett Samuel Smith, <script>alert("XSS")</script>
+2024-11-13T13:30:08.463042 - Denied due to name: Denied these input: Brad Everett Samuel Smith, 7031111234
+2024-11-13T13:30:08.693863 - Denied due to name: Denied these input: Brad Everett Samuel Smith,  1234 (201) 123-1234
+2024-11-13T13:30:08.951565 - Denied due to name: Denied these input: Brad Everett Samuel Smith, (001) 123-1234
+2024-11-13T13:30:09.214996 - Denied due to name: Denied these input: Brad Everett Samuel Smith,  01 (703) 123-1234
+2024-11-13T13:30:09.446041 - Denied due to name: Denied these input: Brad Everett Samuel Smith, (703) 123-1234 ext 204
+2024-11-13T13:30:09.679868 - Denied due to name: Denied these input: Brad Everett Samuel Smith, select * from users;
+2024-11-13T13:30:09.916803 - Denied due to name: Denied these input: select * from users;, 123
+2024-11-13T13:30:10.150137 - Denied due to name: Denied these input: select * from users;, 1/703/123/1234
+2024-11-13T13:30:10.376006 - Denied due to name: Denied these input: select * from users;, Nr 102-123-1234
+2024-11-13T13:30:10.620724 - Denied due to name: Denied these input: select * from users;, <script>alert("XSS")</script>
+2024-11-13T13:30:10.866659 - Denied due to name: Denied these input: select * from users;, 7031111234
+2024-11-13T13:30:11.097169 - Denied due to name: Denied these input: select * from users;,  1234 (201) 123-1234
+2024-11-13T13:30:11.342998 - Denied due to name: Denied these input: select * from users;, (001) 123-1234
+2024-11-13T13:30:11.573710 - Denied due to name: Denied these input: select * from users;,  01 (703) 123-1234
+2024-11-13T13:30:11.821021 - Denied due to name: Denied these input: select * from users;, (703) 123-1234 ext 204
+2024-11-13T13:30:12.067137 - Denied due to name: Denied these input: select * from users;, select * from users;
+2024-11-13T13:30:12.302649 - Denied due to name: Denied these input: <script>alert("XSS")</script>, 123
+2024-11-13T13:30:12.530972 - Denied due to name: Denied these input: <script>alert("XSS")</script>, 1/703/123/1234
+2024-11-13T13:30:12.761810 - Denied due to name: Denied these input: <script>alert("XSS")</script>, Nr 102-123-1234
+2024-11-13T13:30:12.990468 - Denied due to name: Denied these input: <script>alert("XSS")</script>, <script>alert("XSS")</script>
+2024-11-13T13:30:13.235990 - Denied due to name: Denied these input: <script>alert("XSS")</script>, 7031111234
+2024-11-13T13:30:13.465674 - Denied due to name: Denied these input: <script>alert("XSS")</script>,  1234 (201) 123-1234
+2024-11-13T13:30:13.698758 - Denied due to name: Denied these input: <script>alert("XSS")</script>, (001) 123-1234
+2024-11-13T13:30:13.931007 - Denied due to name: Denied these input: <script>alert("XSS")</script>,  01 (703) 123-1234
+2024-11-13T13:30:14.163597 - Denied due to name: Denied these input: <script>alert("XSS")</script>, (703) 123-1234 ext 204
+2024-11-13T13:30:14.410258 - Denied due to name: Denied these input: <script>alert("XSS")</script>, select * from users;
+2024-11-13T13:30:14.653989 - ADD: Added: Bruce Schneier, 123-4567
+2024-11-13T13:30:14.670110 - DELETE: Deleted by name: Bruce Schneier,+1(703)111-2121
+2024-11-13T13:30:14.919448 - ADD: Added: Schneier, Bruce, 123-4567
+2024-11-13T13:30:14.933155 - DELETE: Deleted by name: Schneier, Bruce,123-4567
+2024-11-13T13:30:15.178283 - ADD: Added: Schneier, Bruce Wayne, 123-4567
+2024-11-13T13:30:15.193971 - DELETE: Deleted by name: Schneier, Bruce Wayne,123-4567
+2024-11-13T13:30:15.454951 - ADD: Added: O’Malley, John F., 123-4567
+2024-11-13T13:30:15.465163 - DELETE: Deleted by name: O’Malley, John F.,123-4567
+2024-11-13T13:30:15.724721 - ADD: Added: John O’Malley-Smith, 123-4567
+2024-11-13T13:30:15.734744 - DELETE: Deleted by name: John O’Malley-Smith,123-4567
+2024-11-13T13:30:15.982692 - ADD: Added: Cher, 123-4567
+2024-11-13T13:30:15.999163 - DELETE: Deleted by name: Cher,123-4567
+2024-11-13T13:30:17.926807 - ADD: Added: John Doe, 12345
+2024-11-13T13:30:17.946923 - DELETE: Deleted by phone number and person: 12345,John Doe
+2024-11-13T13:30:18.197068 - ADD: Added: John Doe, (703)111-2121
+2024-11-13T13:30:18.212203 - DELETE: Deleted by phone number and person: (703)111-2121,John Doe
+2024-11-13T13:30:18.482463 - ADD: Added: John Doe, 123-1234
+2024-11-13T13:30:18.500755 - DELETE: Deleted by phone number and person: 123-1234,John Doe
+2024-11-13T13:30:18.748975 - Denied due to number: Denied these input: John Doe,  1(703)111-2121
+2024-11-13T13:30:18.982505 - Denied due to number: Denied these input: John Doe,  32 (21) 212-2324
+2024-11-13T13:30:19.229437 - ADD: Added: John Doe, 1(703)123-1234
+2024-11-13T13:30:19.245063 - DELETE: Deleted by phone number and person: 1(703)123-1234,John Doe
+2024-11-13T13:30:19.517075 - ADD: Added: John Doe, 011 701 111 1234
+2024-11-13T13:30:19.529340 - DELETE: Deleted by phone number and person: 011 701 111 1234,John Doe
+2024-11-13T13:30:19.777347 - ADD: Added: John Doe, 12345.12345
+2024-11-13T13:30:19.790827 - DELETE: Deleted by phone number and person: 12345.12345,John Doe
+2024-11-13T13:30:20.054012 - ADD: Added: John Doe, 011 1 703 111 1234
+2024-11-13T13:30:20.068023 - DELETE: Deleted by phone number and person: 011 1 703 111 1234,John Doe
+2024-11-13T13:30:20.334369 - ADD: Added: John Doe, 22.22.22.22
+2024-11-13T13:30:20.355485 - DELETE: Deleted by phone number and person: 22.22.22.22,John Doe
+2024-11-13T13:30:20.654165 - ADD: Added: John Doe, 2222.2222
+2024-11-13T13:30:20.668876 - DELETE: Deleted by phone number and person: 2222.2222,John Doe
+2024-11-13T13:30:20.948151 - ADD: Added: John Doe, 111 111 1111
+2024-11-13T13:30:20.961993 - DELETE: Deleted by phone number and person: 111 111 1111,John Doe
+2024-11-13T13:30:21.245087 - ADD: Added: John Doe, (670)123-4567
+2024-11-13T13:30:21.259079 - DELETE: Deleted by phone number and person: (670)123-4567,John Doe
+2024-11-13T13:30:21.521237 - ADD: Added: John Doe, 670-123-4567
+2024-11-13T13:30:21.534926 - DELETE: Deleted by phone number and person: 670-123-4567,John Doe
+2024-11-13T13:30:21.811867 - ADD: Added: John Doe, 1-670-123-4567
+2024-11-13T13:30:21.826825 - DELETE: Deleted by phone number and person: 1-670-123-4567,John Doe
+2024-11-13T13:30:22.090263 - ADD: Added: John Doe, 1(670)123-4567
+2024-11-13T13:30:22.106048 - DELETE: Deleted by phone number and person: 1(670)123-4567,John Doe
+2024-11-13T13:30:22.370494 - ADD: Added: John Doe, 670 123 4567
+2024-11-13T13:30:22.383703 - DELETE: Deleted by phone number and person: 670 123 4567,John Doe
+2024-11-13T13:30:22.654996 - ADD: Added: John Doe, 670.123.4567
+2024-11-13T13:30:22.668743 - DELETE: Deleted by phone number and person: 670.123.4567,John Doe
+2024-11-13T13:30:22.929450 - ADD: Added: John Doe, 1 670 123 4567
+2024-11-13T13:30:22.944702 - DELETE: Deleted by phone number and person: 1 670 123 4567,John Doe
+2024-11-13T13:30:23.199067 - ADD: Added: John Doe, 1.670.123.4567
+2024-11-13T13:30:23.213757 - DELETE: Deleted by phone number and person: 1.670.123.4567,John Doe
+2024-11-13T13:38:40.453116 - ADD: Added: Bruce Schneier, +1(703)111-2121
+2024-11-13T13:38:59.598863 - ADD: Added: Cher, +1(703)111-2121
+2024-11-13T13:39:05.192277 - LIST: Listed phonebook entries
+2024-11-13T13:45:22.289864 - LIST: Listed phonebook entries
+2024-11-13T13:45:22.551883 - LIST: Listed phonebook entries
+2024-11-13T13:45:23.046439 - ADD: Added: John Doe, 123-4567
+2024-11-13T13:45:23.521956 - DELETE: Deleted by name: John Doe,123-4567
+2024-11-13T13:45:24.008410 - ADD: Added: John Doe, 123-4567
+2024-11-13T13:45:24.022530 - DELETE: Deleted by phone number and person: 123-4567,Bruce Schneier
+2024-11-13T13:45:58.517258 - LIST: Listed phonebook entries
+2024-11-13T13:45:58.750962 - LIST: Listed phonebook entries
+2024-11-13T13:45:59.780994 - DELETE: Deleted by name: John Doe,123-4567
+2024-11-13T13:46:00.314451 - ADD: Added: John Doe, 123-4567
+2024-11-13T13:46:00.331682 - DELETE: Deleted by phone number and person: 123-4567,John Doe
+2024-11-13T13:46:00.573810 - ADD: Added: Bruce Schneier, 12345
+2024-11-13T13:46:00.820762 - ADD: Added: Bruce Schneier, (703)111-2121
+2024-11-13T13:46:01.069013 - ADD: Added: Bruce Schneier, 123-1234
+2024-11-13T13:46:01.283372 - Denied due to number: Denied these input: Bruce Schneier,  1(703)111-2121
+2024-11-13T13:46:01.502096 - Denied due to number: Denied these input: Bruce Schneier,  32 (21) 212-2324
+2024-11-13T13:46:01.760674 - ADD: Added: Bruce Schneier, 1(703)123-1234
+2024-11-13T13:46:02.011965 - ADD: Added: Bruce Schneier, 011 701 111 1234
+2024-11-13T13:46:02.253562 - ADD: Added: Bruce Schneier, 12345.12345
+2024-11-13T13:46:02.483560 - ADD: Added: Bruce Schneier, 011 1 703 111 1234
+2024-11-13T13:46:02.745217 - ADD: Added: Bruce Schneier, 22.22.22.22
+2024-11-13T13:46:02.999909 - ADD: Added: Bruce Schneier, 2222.2222
+2024-11-13T13:46:03.250109 - ADD: Added: Bruce Schneier, 111 111 1111
+2024-11-13T13:46:03.500934 - ADD: Added: Bruce Schneier, (670)123-4567
+2024-11-13T13:46:03.760430 - ADD: Added: Bruce Schneier, 670-123-4567
+2024-11-13T13:46:03.991790 - ADD: Added: Bruce Schneier, 1-670-123-4567
+2024-11-13T13:46:04.239408 - ADD: Added: Bruce Schneier, 1(670)123-4567
+2024-11-13T13:46:04.470352 - ADD: Added: Bruce Schneier, 670 123 4567
+2024-11-13T13:46:04.704423 - ADD: Added: Bruce Schneier, 670.123.4567
+2024-11-13T13:46:04.948250 - ADD: Added: Bruce Schneier, 1 670 123 4567
+2024-11-13T13:46:05.196560 - ADD: Added: Bruce Schneier, 1.670.123.4567
+2024-11-13T13:46:05.441977 - ADD: Added: Schneier, Bruce, 12345
+2024-11-13T13:46:05.671485 - ADD: Added: Schneier, Bruce, (703)111-2121
+2024-11-13T13:46:05.916291 - ADD: Added: Schneier, Bruce, 123-1234
+2024-11-13T13:46:06.146348 - Denied due to number: Denied these input: Schneier, Bruce,  1(703)111-2121
+2024-11-13T13:46:06.376872 - Denied due to number: Denied these input: Schneier, Bruce,  32 (21) 212-2324
+2024-11-13T13:46:06.639599 - ADD: Added: Schneier, Bruce, 1(703)123-1234
+2024-11-13T13:46:06.889265 - ADD: Added: Schneier, Bruce, 011 701 111 1234
+2024-11-13T13:46:07.148959 - ADD: Added: Schneier, Bruce, 12345.12345
+2024-11-13T13:46:07.399865 - ADD: Added: Schneier, Bruce, 011 1 703 111 1234
+2024-11-13T13:46:07.646723 - ADD: Added: Schneier, Bruce, 22.22.22.22
+2024-11-13T13:46:07.890184 - ADD: Added: Schneier, Bruce, 2222.2222
+2024-11-13T13:46:08.125011 - ADD: Added: Schneier, Bruce, 111 111 1111
+2024-11-13T13:46:08.384681 - ADD: Added: Schneier, Bruce, (670)123-4567
+2024-11-13T13:46:08.615662 - ADD: Added: Schneier, Bruce, 670-123-4567
+2024-11-13T13:46:08.843863 - ADD: Added: Schneier, Bruce, 1-670-123-4567
+2024-11-13T13:46:09.104555 - ADD: Added: Schneier, Bruce, 1(670)123-4567
+2024-11-13T13:46:09.348981 - ADD: Added: Schneier, Bruce, 670 123 4567
+2024-11-13T13:46:09.594300 - ADD: Added: Schneier, Bruce, 670.123.4567
+2024-11-13T13:46:09.839551 - ADD: Added: Schneier, Bruce, 1 670 123 4567
+2024-11-13T13:46:10.070912 - ADD: Added: Schneier, Bruce, 1.670.123.4567
+2024-11-13T13:46:10.332657 - ADD: Added: Schneier, Bruce Wayne, 12345
+2024-11-13T13:46:10.603579 - ADD: Added: Schneier, Bruce Wayne, (703)111-2121
+2024-11-13T13:46:10.857672 - ADD: Added: Schneier, Bruce Wayne, 123-1234
+2024-11-13T13:46:11.090871 - Denied due to number: Denied these input: Schneier, Bruce Wayne,  1(703)111-2121
+2024-11-13T13:46:11.321272 - Denied due to number: Denied these input: Schneier, Bruce Wayne,  32 (21) 212-2324
+2024-11-13T13:46:11.568077 - ADD: Added: Schneier, Bruce Wayne, 1(703)123-1234
+2024-11-13T13:46:11.799883 - ADD: Added: Schneier, Bruce Wayne, 011 701 111 1234
+2024-11-13T13:46:12.061263 - ADD: Added: Schneier, Bruce Wayne, 12345.12345
+2024-11-13T13:46:12.306813 - ADD: Added: Schneier, Bruce Wayne, 011 1 703 111 1234
+2024-11-13T13:46:12.553075 - ADD: Added: Schneier, Bruce Wayne, 22.22.22.22
+2024-11-13T13:46:12.807205 - ADD: Added: Schneier, Bruce Wayne, 2222.2222
+2024-11-13T13:46:13.060897 - ADD: Added: Schneier, Bruce Wayne, 111 111 1111
+2024-11-13T13:46:13.305278 - ADD: Added: Schneier, Bruce Wayne, (670)123-4567
+2024-11-13T13:46:13.550244 - ADD: Added: Schneier, Bruce Wayne, 670-123-4567
+2024-11-13T13:46:13.797357 - ADD: Added: Schneier, Bruce Wayne, 1-670-123-4567
+2024-11-13T13:46:14.049288 - ADD: Added: Schneier, Bruce Wayne, 1(670)123-4567
+2024-11-13T13:46:14.294239 - ADD: Added: Schneier, Bruce Wayne, 670 123 4567
+2024-11-13T13:46:14.541357 - ADD: Added: Schneier, Bruce Wayne, 670.123.4567
+2024-11-13T13:46:14.775774 - ADD: Added: Schneier, Bruce Wayne, 1 670 123 4567
+2024-11-13T13:46:15.051466 - ADD: Added: Schneier, Bruce Wayne, 1.670.123.4567
+2024-11-13T13:46:15.301009 - ADD: Added: O’Malley, John F., 12345
+2024-11-13T13:46:15.545520 - ADD: Added: O’Malley, John F., (703)111-2121
+2024-11-13T13:46:15.775820 - ADD: Added: O’Malley, John F., 123-1234
+2024-11-13T13:46:16.023214 - Denied due to number: Denied these input: O’Malley, John F.,  1(703)111-2121
+2024-11-13T13:46:16.252779 - Denied due to number: Denied these input: O’Malley, John F.,  32 (21) 212-2324
+2024-11-13T13:46:16.498778 - ADD: Added: O’Malley, John F., 1(703)123-1234
+2024-11-13T13:46:16.745388 - ADD: Added: O’Malley, John F., 011 701 111 1234
+2024-11-13T13:46:16.975678 - ADD: Added: O’Malley, John F., 12345.12345
+2024-11-13T13:46:17.236345 - ADD: Added: O’Malley, John F., 011 1 703 111 1234
+2024-11-13T13:46:17.484869 - ADD: Added: O’Malley, John F., 22.22.22.22
+2024-11-13T13:46:17.715087 - ADD: Added: O’Malley, John F., 2222.2222
+2024-11-13T13:46:17.996971 - ADD: Added: O’Malley, John F., 111 111 1111
+2024-11-13T13:46:18.226414 - ADD: Added: O’Malley, John F., (670)123-4567
+2024-11-13T13:46:18.461893 - ADD: Added: O’Malley, John F., 670-123-4567
+2024-11-13T13:46:18.728791 - ADD: Added: O’Malley, John F., 1-670-123-4567
+2024-11-13T13:46:18.983008 - ADD: Added: O’Malley, John F., 1(670)123-4567
+2024-11-13T13:46:19.245215 - ADD: Added: O’Malley, John F., 670 123 4567
+2024-11-13T13:46:19.494911 - ADD: Added: O’Malley, John F., 670.123.4567
+2024-11-13T13:46:19.745130 - ADD: Added: O’Malley, John F., 1 670 123 4567
+2024-11-13T13:46:19.988021 - ADD: Added: O’Malley, John F., 1.670.123.4567
+2024-11-13T13:46:20.218588 - ADD: Added: John O’Malley-Smith, 12345
+2024-11-13T13:46:20.479849 - ADD: Added: John O’Malley-Smith, (703)111-2121
+2024-11-13T13:46:20.710022 - ADD: Added: John O’Malley-Smith, 123-1234
+2024-11-13T13:46:20.939742 - Denied due to number: Denied these input: John O’Malley-Smith,  1(703)111-2121
+2024-11-13T13:46:21.158275 - Denied due to number: Denied these input: John O’Malley-Smith,  32 (21) 212-2324
+2024-11-13T13:46:21.418491 - ADD: Added: John O’Malley-Smith, 1(703)123-1234
+2024-11-13T13:46:21.669232 - ADD: Added: John O’Malley-Smith, 011 701 111 1234
+2024-11-13T13:46:21.911869 - ADD: Added: John O’Malley-Smith, 12345.12345
+2024-11-13T13:46:22.162879 - ADD: Added: John O’Malley-Smith, 011 1 703 111 1234
+2024-11-13T13:46:22.413519 - ADD: Added: John O’Malley-Smith, 22.22.22.22
+2024-11-13T13:46:22.656446 - ADD: Added: John O’Malley-Smith, 2222.2222
+2024-11-13T13:46:22.901422 - ADD: Added: John O’Malley-Smith, 111 111 1111
+2024-11-13T13:46:23.147377 - ADD: Added: John O’Malley-Smith, (670)123-4567
+2024-11-13T13:46:23.392127 - ADD: Added: John O’Malley-Smith, 670-123-4567
+2024-11-13T13:46:23.652912 - ADD: Added: John O’Malley-Smith, 1-670-123-4567
+2024-11-13T13:46:23.899717 - ADD: Added: John O’Malley-Smith, 1(670)123-4567
+2024-11-13T13:46:24.144896 - ADD: Added: John O’Malley-Smith, 670 123 4567
+2024-11-13T13:46:24.393063 - ADD: Added: John O’Malley-Smith, 670.123.4567
+2024-11-13T13:46:24.669310 - ADD: Added: John O’Malley-Smith, 1 670 123 4567
+2024-11-13T13:46:24.918715 - ADD: Added: John O’Malley-Smith, 1.670.123.4567
+2024-11-13T13:46:25.168792 - ADD: Added: Cher, 12345
+2024-11-13T13:46:25.431639 - ADD: Added: Cher, (703)111-2121
+2024-11-13T13:46:25.681912 - ADD: Added: Cher, 123-1234
+2024-11-13T13:46:25.900806 - Denied due to number: Denied these input: Cher,  1(703)111-2121
+2024-11-13T13:46:26.126949 - Denied due to number: Denied these input: Cher,  32 (21) 212-2324
+2024-11-13T13:46:26.412970 - ADD: Added: Cher, 1(703)123-1234
+2024-11-13T13:46:26.673903 - ADD: Added: Cher, 011 701 111 1234
+2024-11-13T13:46:26.927382 - ADD: Added: Cher, 12345.12345
+2024-11-13T13:46:27.203328 - ADD: Added: Cher, 011 1 703 111 1234
+2024-11-13T13:46:27.474727 - ADD: Added: Cher, 22.22.22.22
+2024-11-13T13:46:27.723656 - ADD: Added: Cher, 2222.2222
+2024-11-13T13:46:27.973817 - ADD: Added: Cher, 111 111 1111
+2024-11-13T13:46:28.223776 - ADD: Added: Cher, (670)123-4567
+2024-11-13T13:46:28.491565 - ADD: Added: Cher, 670-123-4567
+2024-11-13T13:46:28.752844 - ADD: Added: Cher, 1-670-123-4567
+2024-11-13T13:46:28.997828 - ADD: Added: Cher, 1(670)123-4567
+2024-11-13T13:46:29.230429 - ADD: Added: Cher, 670 123 4567
+2024-11-13T13:46:29.472550 - ADD: Added: Cher, 670.123.4567
+2024-11-13T13:46:29.718995 - ADD: Added: Cher, 1 670 123 4567
+2024-11-13T13:46:29.972436 - ADD: Added: Cher, 1.670.123.4567
+2024-11-13T13:49:11.161945 - LIST: Listed phonebook entries
+2024-11-13T13:49:11.407872 - LIST: Listed phonebook entries
+2024-11-13T13:49:11.882204 - ADD: Added: John Doe, 123-4567
+2024-11-13T13:49:12.360336 - DELETE: Deleted by name: John Doe,123-4567
+2024-11-13T13:49:12.842009 - ADD: Added: John Doe, 123-4567
+2024-11-13T13:49:12.842009 - DELETE: Deleted by phone number and person: 123-4567,John Doe
+2024-11-13T13:49:13.091117 - Denied due to number: Denied these input: Schneier, Bruce,  32 (21) 212-2324
+2024-11-13T13:49:58.108249 - ADD: Added: Schneier, Bruce, +32 (21) 212-2324
+2024-11-13T13:50:59.650122 - LIST: Listed phonebook entries
+2024-11-13T13:50:59.901352 - LIST: Listed phonebook entries
+2024-11-13T13:51:00.461967 - ADD: Added: John Doe, 123-4567
+2024-11-13T13:51:00.971537 - DELETE: Deleted by name: John Doe,123-4567
+2024-11-13T13:51:01.470585 - ADD: Added: John Doe, 123-4567
+2024-11-13T13:51:01.486639 - DELETE: Deleted by phone number and person: 123-4567,John Doe
+2024-11-13T13:51:01.713163 - Denied due to number: Denied these input: Schneier, Bruce,  32 (21) 212-2324
