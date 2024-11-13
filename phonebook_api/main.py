@@ -307,6 +307,24 @@ def delete_by_number(phone_number: str, current_user: str = Depends(authorize_wr
     except Exception as e:
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=f"An error occurred: {str(e)}")
 
+@app.delete("/PhoneBook/clear", status_code=status.HTTP_200_OK)
+def clear_phonebook(current_user: str = Depends(authorize_write)):
+    """
+    Clear all entries from the phonebook. Restricted to write-access users.
+    """
+    try:
+        session = Session()
+        # Delete all entries from the phonebook table
+        session.query(PhoneBook).delete()
+        session.commit()
+        session.close()
+        log_action("CLEAR", f"Cleared all phonebook entries by {current_user}")
+        return {"message": "All phonebook entries have been cleared"}
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"An error occurred while clearing the phonebook: {str(e)}",
+        )
 
 # Run the application with Uvicorn if this script is executed directly
 if __name__ == "__main__":

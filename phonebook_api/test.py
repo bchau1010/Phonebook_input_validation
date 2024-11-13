@@ -10,6 +10,7 @@ from testData import valid_phones_extra, invalid_phones_extra, valid_names_extra
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+
 #########################################
 #########################################
 #########################################
