@@ -6,3 +6,4 @@ SQLAlchemy
 jose
 passlib
 python-multipart
+pytest-asyncio

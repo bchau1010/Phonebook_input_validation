@@ -163,6 +163,7 @@ REGEX INPUT VALIDATION
 # Authorization for read access
 def authorize_read(user: dict = Depends(get_current_active_user)):
     if user["role"] not in ["read", "read/write"]:
+        log_action("Try to list without privileges","Attempt to access data without priviledges")
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Insufficient privileges")
     return user
 
@@ -213,7 +214,6 @@ def login(form_data: OAuth2PasswordRequestForm = Depends()):
 # List phonebook entries
 @app.get("/PhoneBook/list", status_code=status.HTTP_200_OK)
 def list_phonebook(current_user: str = Depends(authorize_read)):
-    #
     try:
         session = Session()
         phonebook = session.query(PhoneBook).all()
@@ -230,10 +230,10 @@ def add_person(full_name: str, phone_number: str, current_user: str = Depends(au
         session = Session()
         # Validate name and phone number
         if not validate_name(full_name):
-            log_action("Denied due to name", f"Denied these input: {full_name}, {phone_number}")
+            log_action("Adding denied due to invalidname", f"Denied these input: {full_name}, {phone_number}")
             raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid input for name")
         if not validate_phone(phone_number):
-            log_action("Denied due to number", f"Denied these input: {full_name}, {phone_number}")
+            log_action("Adding denied due to invalidnumber", f"Denied these input: {full_name}, {phone_number}")
             raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid input for phone number")
         
         # Check if both full_name and phone_number match an existing record
@@ -244,9 +244,9 @@ def add_person(full_name: str, phone_number: str, current_user: str = Depends(au
         )
         if existing_person:
             session.close()
+            log_action("Adding denied due to person already exists", f"Denied these input: {full_name},{phone_number}")
             raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Person already exists")
 
-        # Add the new person
         new_person = PhoneBook(full_name=full_name, phone_number=phone_number)
         session.add(new_person)
         session.commit()
@@ -262,22 +262,24 @@ def add_person(full_name: str, phone_number: str, current_user: str = Depends(au
 # Delete person by name 
 @app.put("/PhoneBook/deleteByName", status_code=status.HTTP_200_OK)
 def delete_by_name(full_name: str, current_user: str = Depends(authorize_write)):
-    #
     try:
         if(not validate_name(full_name)):
+            log_action("DeleteByName denied due to invalidname", f"Denied these input: {full_name}")
             raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid input for name")
         session = Session()
         
         # get the first match of the person, if there are more than 1 name
         person = session.query(PhoneBook).filter_by(full_name=full_name).first()
-        phonenumber = person.phone_number
+        
         if not person:
             session.close()
+            log_action("DeleteByName denied due to person not found", f"Denied these input: {full_name}")
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Person not found")
+        phonenumber = person.phone_number
         session.delete(person)
         session.commit()
         session.close()
-        log_action("DELETE", f"Deleted by name: {full_name},{phonenumber}")
+        log_action("DELETE", f"Deleted by name, details: {full_name},{phonenumber}")
         return {"message": "Person deleted successfully"}
     except HTTPException:
         raise
@@ -290,23 +292,26 @@ def delete_by_number(phone_number: str, current_user: str = Depends(authorize_wr
     try:
         session = Session()
         if(not validate_phone(phone_number)):
+            log_action("DeleteByNumber denied due to invalidnumber", f"Denied these input: {phone_number}")
             raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid input for phone number")
         #fetch the first intstance of user that match the phone number
         person = session.query(PhoneBook).filter_by(phone_number=phone_number).first()
         
         if not person:
             session.close()
+            log_action("DeleteByNumber denied due to number not found", f"Denied these input: {phone_number}")
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Number not found")
         session.delete(person)
         session.commit()
         session.close()
-        log_action("DELETE", f"Deleted by phone number and person: {phone_number},{person.full_name}")
+        log_action("DELETE", f"Deleted by phone number, details: {phone_number},{person.full_name}")
         return {"message": "Person deleted successfully"}
     except HTTPException:
         raise
     except Exception as e:
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=f"An error occurred: {str(e)}")
 
+'''
 @app.delete("/PhoneBook/clear", status_code=status.HTTP_200_OK)
 def clear_phonebook(current_user: str = Depends(authorize_write)):
     """
@@ -325,8 +330,8 @@ def clear_phonebook(current_user: str = Depends(authorize_write)):
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"An error occurred while clearing the phonebook: {str(e)}",
         )
+'''
 
-# Run the application with Uvicorn if this script is executed directly
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)

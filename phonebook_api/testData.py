@@ -1,3 +1,5 @@
+######################################
+#TEST CASES FROM REQUIREMENT
 valid_phones = [
     "12345",
     "(703)111-2121",
@@ -23,15 +25,15 @@ valid_phones = [
 
 
 invalid_phones = [
-    "123",                        # Too short
-    "1/703/123/1234",             # Wrong separator
-    "Nr 102-123-1234",            # Non-numeric characters
-    '<script>alert("XSS")</script>', # XSS attempt
-    "7031111234",                 # Missing separators
-    "+1234 (201) 123-1234",       # Invalid country code
-    "(001) 123-1234",             # Invalid area code
-    "+01 (703) 123-1234",         # Invalid country code
-    "(703) 123-1234 ext 204",      # Extension should be allowed but this particular format may be flagged
+    "123",                       
+    "1/703/123/1234",             
+    "Nr 102-123-1234",            
+    '<script>alert("XSS")</script>', 
+    "7031111234",                
+    "+1234 (201) 123-1234",       
+    "(001) 123-1234",             
+    "+01 (703) 123-1234",         
+    "(703) 123-1234 ext 204",      
     "select * from users;" 
 ]
 
@@ -47,108 +49,85 @@ valid_names = [
 
 
 invalid_names = [
-    "Ron O’’Henry",                  # Double apostrophes
-    "Ron O’Henry-Smith-Barnes",       # Too many hyphenated names
-    "L33t Hacker",                    # Numbers in name
-    '<script>alert("XSS")</script>',  # XSS/HTML tags
-    "Brad Everett Samuel Smith",      # Too many name parts (over 3)
-    "select * from users;",            # SQL injection
+    "Ron O’’Henry",                  
+    "Ron O’Henry-Smith-Barnes",       
+    "L33t Hacker",                    
+    '<script>alert("XSS")</script>',  
+    "Brad Everett Samuel Smith",      
+    "select * from users;",            
     '<script>alert("XSS")</script>'
 ]
 
 
 ######################################
-valid_phones_extra = [
+#EXTRA TEST CASES
+valid_phones2 = [
     "(123) 456-7890",
     "202.555.0188",
     "123 456 7890",
-    "+44 20 7946 0958",
     "1-800-555-5555",
     "1 (800) 555-5555",
     "+1-800-555-5555",
-    "+86 (10) 1234 5678",
-    "+81 3 1234 5678",
-    "011 44 20 7946 0958",
-    "001 (510) 555-5555",
-    "+61 (2) 9876 5432",
-    "011 44 7911 123456",
-    "+91 80 1234 5678",
     "1-700-555-5555",
-    "011 86 10 1234 5678",
-    "011 81 3 1234 5678",
     "+1 415-555-2671",
     "+1 (949) 555-2671",
     "+27 21 555 5555",
-    "011 61 2 9876 5432",
-    "011 86 21 9876 5432",
-    "+49 (30) 1234-5678",
-    "+55 11 98765-4321",
     "12345-12345",
-    "0044 20 7946 0958",
     "+1 (650) 555-3456",
-    "011 972 2 1234567",
-    "+971 4 123 4567",
-    "011 852 1234 5678",
     "+7 495 123-4567",
-    "011 55 21 1234 5678",
     "+1-650-555-1234",
-    "011 81 50 1234 5678",
     "+1 212 555 1234",
     "+1 646 555 4567",
     "(555) 123-4567",
-    "+31 (0) 20 555 1234",
-    "011 32 2 555 1234",
-    "+39 06 555 1234",
-    "011 30 21 555 1234",
 ]
 
 
-invalid_phones_extra = [
-    "12",                             # Too short
-    "1234/567",                       # Wrong format with slash
-    "555-555-55555",                  # Too many digits
-    "(123)-456-789",                  # Area code incorrectly formatted
-    "+(123) 456-7890",                # Invalid country code format
-    "(123)-456/7890",                 # Wrong separator
-    "555-555-555a",                   # Alphabetic character
-    "+123 (456) 789 12345",           # Too long
-    "01112345678901",                 # Missing spaces
-    "+01 (800) 555-1234",             # Invalid country code (leading zero)
-    "(000) 555-1234",                 # Invalid area code (all zeros)
-    "(123) 555 12345",                # Too long after area code
-    "555-555-555",                    # Too few digits
-    "555.555.555a",                   # Contains letter
-    "555*555*5555",                   # Invalid separator
-    "+1 (123) 555_1234",              # Invalid separator (_)
-    "(555)123-456",                   # Too short after area code
-    "(12345) 123-1234",               # Invalid area code
-    "123-1234-1234",                  # Too many parts
-    "555-555-555-5555",               # Too many sections
-    "555 555 555",                    # Too few digits
-    "555 555 5555 555",               # Too many digits
-    "555-555 555",                    # Missing a digit
-    "555-5555555",                    # Missing separator
-    "555.555555",                     # Missing separator
-    "555..555.5555",                  # Double separator
-    "555.5555.555",                   # Incorrect format
-    "(555 555-5555 ext)",             # Missing extension number
-    "555-555-555 ext",                # Incomplete extension
-    "555-555-5555 ext123456",         # Extension too long
-    "555-555-5555x",                  # Incomplete extension with "x"
-    "+1 (555) 555 555a",              # Contains letter
-    "1-800 555 555",                  # Missing digit
-    "+1 (555) 555 555a",              # Contains letter
-    "(555) 555-5555 x99999",          # Extension too long
-    "+1 (123) 555 12a4",              # Contains letter in subscriber number
-    "123-123-12345",                  # Too many digits
-    "+1 (123) 555-555555",            # Too many digits in subscriber number
-    "(123) 555 12a4",                 # Contains letter in subscriber number
-    "+1-555-5555-1234",                # Invalid separator placement
+invalid_phones2 = [
+    "12",
+    "1234/567",
+    "555-555-55555",
+    "(123)-456-789",
+    "+(123) 456-7890",
+    "(123)-456/7890",
+    "555-555-555a",
+    "+123 (456) 789 12345",
+    "01112345678901",
+    "+01 (800) 555-1234",
+    "(000) 555-1234",
+    "(123) 555 12345",
+    "555-555-555",
+    "555.555.555a",
+    "555*555*5555",
+    "+1 (123) 555_1234",
+    "(555)123-456",
+    "(12345) 123-1234",
+    "123-1234-1234",
+    "555 555 555",
+    "555 555 5555 555",
+    "555-555 555",
+    "555-5555555",
+    "555.555555",
+    "555..555.5555",
+    "555.5555.555",
+    "(555 555-5555 ext)",
+    "555-555-555 ext",
+    "555-555-5555 ext123456",
+    "555-555-5555x",
+    "+1 (555) 555 555a",
+    "1-800 555 555",
+    "+1 (555) 555 555a",
+    "(555) 555-5555 x99999",
+    "+1 (123) 555 12a4",
+    "123-123-12345",
+    "+1 (123) 555-555555",
+    "(123) 555 12a4",
+    "+1-555-5555-1234",
     " ",
 ]
 
 
-valid_names_extra = [
+
+valid_names2 = [
     "Ann Marie",
     "Anne O’Hara",
     "Patrick O'Connor",
@@ -190,18 +169,18 @@ valid_names_extra = [
 ]
 
 
-invalid_names_extra = [
+invalid_names2 = [
     " ",
-    "12345",                            # Numbers in name
-    "John123",                          # Numbers in first name
-    "O’123Malley",                      # Numbers in last name
-    "Jean-Luc Pic@rd",                  # Special characters in name
-    "Marie$$$Claire",                   # Invalid special characters
-    "Anne O’’Connor",                   # Double apostrophe
-    "Patrick O'Connor-Smith-Jones",     # Too many hyphenated names
-    "<script>alert('XSS')",             # XSS attack
-    "Michael O’Leary123",               # Numbers in last name
-    "FitzGer@ld",                       # Invalid character
+    "12345",                            
+    "John123",                          
+    "O’123Malley",                      
+    "Jean-Luc Pic@rd",                  
+    "Marie$$$Claire",                   
+    "Anne O’’Connor",                   
+    "Patrick O'Connor-Smith-Jones",     
+    "<script>alert('XSS')",             
+    "Michael O’Leary123",               
+    "FitzGer@ld",                       
     "John O''''Malley",                 
     "Marie-Ann-Pierre",                 
     "Jean-Luc Picard-Dupont-Baker",     

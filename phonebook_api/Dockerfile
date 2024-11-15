@@ -9,7 +9,7 @@ ENV PYTHONDONTWRITEBYTECODE=1
 WORKDIR /app
 
 # Copy the application files and requirement
-COPY main.py test.py testData.py loginInfo.py /app/
+COPY main.py test.py testData.py loginInfo.py apiTest.py /app/
 COPY requirements.txt /app/
 
 # Install dependencies
@@ -22,7 +22,6 @@ RUN pip install "python-jose[cryptography]==3.3.0"
 RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
 USER appuser
 
-# Expose port 8000 for FastAPI
 EXPOSE 8000
 
 
@@ -30,5 +29,9 @@ EXPOSE 8000
 # Run the FastAPI application with Uvicorn
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 
-# Optional: Command to run tests (uncomment to use)
-# RUN pytest test.py
+
+# Create image: docker build -t fastapi-app .
+# Run the docker container: docker run -d -p 8000:8000 fastapi-app
+# Run test
+    # pytest test.py
+    # pytest apiTest.py

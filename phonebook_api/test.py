@@ -5,7 +5,7 @@ from httpx import ASGITransport
 from main import app, phone_regex, name_regex, validate_name, validate_phone
 from main import validate_phone, validate_name
 from testData import valid_phones, invalid_phones, valid_names, invalid_names
-from testData import valid_phones_extra, invalid_phones_extra, valid_names_extra, invalid_names_extra
+from testData import valid_phones2, invalid_phones2, valid_names2, invalid_names2
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -17,6 +17,12 @@ logger = logging.getLogger(__name__)
 #########################################
 #########################################
 #VALIDATION TEST
+
+#valid_phones = valid_phones2
+#invalid_phones = invalid_phones2
+#valid_names = valid_names2
+#invalid_names = invalid_names2
+
 
 @pytest.mark.parametrize("phone", valid_phones)
 def test_valid_phone_numbers(phone):
@@ -55,7 +61,7 @@ def test_validate_phone_numbers(phone, Iphone):
 #########################################
 #########################################
 #########################################
-# ENDPOINT TEST
+# ENDPOINT TEST ONLY FOR AUTHORIZATION
 
 # Helper function for token retrieval
 @pytest.mark.asyncio
@@ -78,8 +84,6 @@ async def test_list_phonebook(username, password, expected_status):
     assert response.status_code == expected_status
     assert isinstance(response.json(), list), "Expected a list of phonebook entries"
 
-#############################################################
-# 422 = server cannot process because request contain invalid data
 # Test adding person with either admin or read only user
 @pytest.mark.asyncio
 @pytest.mark.parametrize("username, password, expected_status", [
@@ -90,15 +94,11 @@ async def test_add_person(username, password, expected_status):
     async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
         headers = {"Authorization": f"Bearer {token}"}
         response = await client.post("/PhoneBook/add?full_name=John Doe&phone_number=123-4567", headers=headers)
-
         if response.status_code != expected_status:
             logger.error(f"Failed to add person. Status code: {response.status_code}, Response: {response.json()}")
-
     assert response.status_code == expected_status
     if expected_status == 200:
         assert response.json() == {"message": "Person added successfully"}
-
-
 
 # Test delete by name with either admin or read only user
 @pytest.mark.asyncio
@@ -109,16 +109,11 @@ async def test_delete_person_by_name(username, password, expected_status):
     token = await get_token(username, password)
     async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
         headers = {"Authorization": f"Bearer {token}"}
-
         if expected_status == 200:
             await client.post("/PhoneBook/add?full_name=John Doe&phone_number=123-4567", headers=headers)
-        
-        # Pass full_name as a query parameter
         response = await client.put("/PhoneBook/deleteByName?full_name=John Doe", headers=headers)
-
         if response.status_code != expected_status:
             logger.error(f"Failed to delete person by name. Status code: {response.status_code}, Response: {response.json()}")
-
     assert response.status_code == expected_status
     if expected_status == 200:
         assert response.json() == {"message": "Person deleted successfully"}
@@ -132,16 +127,11 @@ async def test_delete_person_by_phone_number(username, password, expected_status
     token = await get_token(username, password)
     async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
         headers = {"Authorization": f"Bearer {token}"}
-
         if expected_status == 200:
             await client.post("/PhoneBook/add?full_name=John Doe&phone_number=123-4567", headers=headers)
-        
-        # Pass phone_number as a query parameter
         response = await client.put("/PhoneBook/deleteByNumber?phone_number=123-4567", headers=headers)
-
         if response.status_code != expected_status:
             logger.error(f"Failed to delete person by phone number. Status code: {response.status_code}, Response: {response.json()}")
-
     assert response.status_code == expected_status
     if expected_status == 200:
         assert response.json() == {"message": "Person deleted successfully"}
