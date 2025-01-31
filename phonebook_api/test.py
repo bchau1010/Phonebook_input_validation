@@ -10,6 +10,10 @@ from testData import valid_phones2, invalid_phones2, valid_names2, invalid_names
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+########################################
+#THIS TEST FILE IS FOR UNIT TESTING OF INDIVIDUAL COMPONENTS
+#API TEST DOES NOT INCLUDED IN HERE, EXCEPT FOR AUTHORIZATION
+
 
 #########################################
 #########################################
