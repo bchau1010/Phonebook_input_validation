@@ -3,14 +3,12 @@ from sqlalchemy import create_engine, Column, Integer, String
 #from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import sessionmaker
-
 import re
 import datetime
 from jose import JWTError, jwt
 #import jwt
 from passlib.context import CryptContext
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
-
 from loginInfo import fake_users_db
 
 '''
